@@ -164,18 +164,18 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "gnss-default",
+	name: "gnss-mtk",
 	owner: "daria",
-	src: "proprietary/vendor/etc/vintf/manifest/gnss-default.xml",
+	src: "proprietary/vendor/etc/vintf/manifest/gnss-mtk.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
 }
 
 prebuilt_etc_xml {
-	name: "gnss@2.1-service",
+	name: "gnss@2.1-service-mtk",
 	owner: "daria",
-	src: "proprietary/vendor/etc/vintf/manifest/gnss@2.1-service.xml",
+	src: "proprietary/vendor/etc/vintf/manifest/gnss@2.1-service-mtk.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
