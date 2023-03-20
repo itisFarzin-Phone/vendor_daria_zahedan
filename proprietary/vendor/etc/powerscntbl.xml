@@ -24,9 +24,6 @@
         <data cmd="PERF_RES_SCHED_UCLAMP_MIN_TA" param1="100"></data>
         <data cmd="PERF_RES_PERF_TASK_TURBO" param1="15"></data>
         <data cmd="PERF_RES_SCHED_CACHE_PART_CTRL" param1="1"></data>
-        <!--prize add for Fine-tune startup speed start-->
-        <data cmd="PERF_RES_GPU_FREQ_MIN" param1="0"></data>
-        <!--prize add for Fine-tune startup speed  end-->
     </scenario>
     <scenario powerhint="MTKPOWER_HINT_EXT_LAUNCH">
         <data cmd="PERF_RES_FPS_FBT_BHR_OPP" param1="15"></data>
@@ -116,10 +113,4 @@
         <data cmd="PERF_RES_CPUFREQ_MAX_CLUSTER_1" param1="3000000"></data>
         <data cmd="PERF_RES_SCHED_UCLAMP_MIN_TA" param1="40"></data>
     </scenario>
-    <!--prize add for interaction start-->
-    <scenario powerhint="INTERACTION">
-        <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_0" param1="1260000"></data>
-        <data cmd="PERF_RES_CPUFREQ_MIN_CLUSTER_1" param1="1540000"></data>
-    </scenario>
-    <!--prize add for interaction end-->
 </SCNTABLE>
