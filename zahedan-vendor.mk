@@ -49,11 +49,14 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/bin/autobt:$(TARGET_COPY_OUT_VENDOR)/bin/autobt \
     vendor/daria/zahedan/proprietary/vendor/bin/bip_ap:$(TARGET_COPY_OUT_VENDOR)/bin/bip_ap \
     vendor/daria/zahedan/proprietary/vendor/bin/bp_kmsetkey_ca:$(TARGET_COPY_OUT_VENDOR)/bin/bp_kmsetkey_ca \
+    vendor/daria/zahedan/proprietary/vendor/bin/bt_dump:$(TARGET_COPY_OUT_VENDOR)/bin/bt_dump \
     vendor/daria/zahedan/proprietary/vendor/bin/ccci_mdinit:$(TARGET_COPY_OUT_VENDOR)/bin/ccci_mdinit \
     vendor/daria/zahedan/proprietary/vendor/bin/ccci_rpcd:$(TARGET_COPY_OUT_VENDOR)/bin/ccci_rpcd \
     vendor/daria/zahedan/proprietary/vendor/bin/chipinfo:$(TARGET_COPY_OUT_VENDOR)/bin/chipinfo \
+    vendor/daria/zahedan/proprietary/vendor/bin/conninfra_loader:$(TARGET_COPY_OUT_VENDOR)/bin/conninfra_loader \
     vendor/daria/zahedan/proprietary/vendor/bin/dconfig:$(TARGET_COPY_OUT_VENDOR)/bin/dconfig \
     vendor/daria/zahedan/proprietary/vendor/bin/dexecutor:$(TARGET_COPY_OUT_VENDOR)/bin/dexecutor \
+    vendor/daria/zahedan/proprietary/vendor/bin/dmabuf_dump:$(TARGET_COPY_OUT_VENDOR)/bin/dmabuf_dump \
     vendor/daria/zahedan/proprietary/vendor/bin/dmc_core:$(TARGET_COPY_OUT_VENDOR)/bin/dmc_core \
     vendor/daria/zahedan/proprietary/vendor/bin/doeapp-memtester:$(TARGET_COPY_OUT_VENDOR)/bin/doeapp-memtester \
     vendor/daria/zahedan/proprietary/vendor/bin/doeapp-sat:$(TARGET_COPY_OUT_VENDOR)/bin/doeapp-sat \
@@ -63,14 +66,17 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/bin/fuelgauged:$(TARGET_COPY_OUT_VENDOR)/bin/fuelgauged \
     vendor/daria/zahedan/proprietary/vendor/bin/fuelgauged_nvram:$(TARGET_COPY_OUT_VENDOR)/bin/fuelgauged_nvram \
     vendor/daria/zahedan/proprietary/vendor/bin/gbe:$(TARGET_COPY_OUT_VENDOR)/bin/gbe \
+    vendor/daria/zahedan/proprietary/vendor/bin/getgameserver:$(TARGET_COPY_OUT_VENDOR)/bin/getgameserver \
     vendor/daria/zahedan/proprietary/vendor/bin/gsm0710muxd:$(TARGET_COPY_OUT_VENDOR)/bin/gsm0710muxd \
     vendor/daria/zahedan/proprietary/vendor/bin/hw/android.hardware.audio.service.mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.audio.service.mediatek \
     vendor/daria/zahedan/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.1-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.1-service-mediatek \
     vendor/daria/zahedan/proprietary/vendor/bin/hw/android.hardware.drm@1.4-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.4-service.widevine \
     vendor/daria/zahedan/proprietary/vendor/bin/hw/android.hardware.gnss-service.mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gnss-service.mediatek \
     vendor/daria/zahedan/proprietary/vendor/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek \
+    vendor/daria/zahedan/proprietary/vendor/bin/hw/android.hardware.keymaster@4.1-service.beanpod:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@4.1-service.beanpod \
     vendor/daria/zahedan/proprietary/vendor/bin/hw/android.hardware.media.c2@1.2-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.media.c2@1.2-mediatek \
     vendor/daria/zahedan/proprietary/vendor/bin/hw/android.hardware.media.c2@1.2-mediatek-64b:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.media.c2@1.2-mediatek-64b \
+    vendor/daria/zahedan/proprietary/vendor/bin/hw/android.hardware.neuralnetworks@1.3-service-mtk-neuron:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.neuralnetworks@1.3-service-mtk-neuron \
     vendor/daria/zahedan/proprietary/vendor/bin/hw/android.hardware.nfc@1.2-service-st:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.nfc@1.2-service-st \
     vendor/daria/zahedan/proprietary/vendor/bin/hw/android.hardware.secure_element@1.2-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.secure_element@1.2-service-mediatek \
     vendor/daria/zahedan/proprietary/vendor/bin/hw/android.hardware.sensors@2.0-service.multihal-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.sensors@2.0-service.multihal-mediatek \
@@ -106,7 +112,11 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/bin/nvram_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/nvram_daemon \
     vendor/daria/zahedan/proprietary/vendor/bin/rcs_volte_stack:$(TARGET_COPY_OUT_VENDOR)/bin/rcs_volte_stack \
     vendor/daria/zahedan/proprietary/vendor/bin/rt5512_calibration:$(TARGET_COPY_OUT_VENDOR)/bin/rt5512_calibration \
+    vendor/daria/zahedan/proprietary/vendor/bin/rttv:$(TARGET_COPY_OUT_VENDOR)/bin/rttv \
     vendor/daria/zahedan/proprietary/vendor/bin/teei_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/teei_daemon \
+    vendor/daria/zahedan/proprietary/vendor/bin/thermal:$(TARGET_COPY_OUT_VENDOR)/bin/thermal \
+    vendor/daria/zahedan/proprietary/vendor/bin/thermal_manager:$(TARGET_COPY_OUT_VENDOR)/bin/thermal_manager \
+    vendor/daria/zahedan/proprietary/vendor/bin/thermalloadalgod:$(TARGET_COPY_OUT_VENDOR)/bin/thermalloadalgod \
     vendor/daria/zahedan/proprietary/vendor/bin/volte_clientapi_ua:$(TARGET_COPY_OUT_VENDOR)/bin/volte_clientapi_ua \
     vendor/daria/zahedan/proprietary/vendor/bin/volte_rcs_ua:$(TARGET_COPY_OUT_VENDOR)/bin/volte_rcs_ua \
     vendor/daria/zahedan/proprietary/vendor/bin/vpud:$(TARGET_COPY_OUT_VENDOR)/bin/vpud \
@@ -249,7 +259,9 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/etc/bstBackLightDetect.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/bstBackLightDetect.cfg \
     vendor/daria/zahedan/proprietary/vendor/etc/bst_filter_config.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/bst_filter_config.cfg \
     vendor/daria/zahedan/proprietary/vendor/etc/bstbeauty.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/bstbeauty.cfg \
+    vendor/daria/zahedan/proprietary/vendor/etc/cgroups.json:$(TARGET_COPY_OUT_VENDOR)/etc/cgroups.json \
     vendor/daria/zahedan/proprietary/vendor/etc/control_param_AiScene_encode.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/control_param_AiScene_encode.cfg \
+    vendor/daria/zahedan/proprietary/vendor/etc/cust_color.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cust_color.xml \
     vendor/daria/zahedan/proprietary/vendor/etc/ecc_list.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list.xml \
     vendor/daria/zahedan/proprietary/vendor/etc/ecc_list_OP01.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP01.xml \
     vendor/daria/zahedan/proprietary/vendor/etc/ecc_list_OP02.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP02.xml \
@@ -261,6 +273,7 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/etc/ecc_list_OP236.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_OP236.xml \
     vendor/daria/zahedan/proprietary/vendor/etc/ecc_list_preference.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ecc_list_preference.xml \
     vendor/daria/zahedan/proprietary/vendor/etc/factory.ini:$(TARGET_COPY_OUT_VENDOR)/etc/factory.ini \
+    vendor/daria/zahedan/proprietary/vendor/etc/fstb.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/fstb.cfg \
     vendor/daria/zahedan/proprietary/vendor/etc/gbe.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/gbe.cfg \
     vendor/daria/zahedan/proprietary/vendor/etc/gnss/agps_profiles_conf2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/agps_profiles_conf2.xml \
     vendor/daria/zahedan/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_Mexico.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_ATnT_Mexico.xml \
@@ -280,7 +293,9 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.4-service.widevine.rc \
     vendor/daria/zahedan/proprietary/vendor/etc/init/android.hardware.gnss-service.mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss-service.mediatek.rc \
     vendor/daria/zahedan/proprietary/vendor/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.graphics.allocator@4.0-service-mediatek.rc \
+    vendor/daria/zahedan/proprietary/vendor/etc/init/android.hardware.keymaster@4.1-service.beanpod.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.1-service.beanpod.rc \
     vendor/daria/zahedan/proprietary/vendor/etc/init/android.hardware.media.c2@1.2-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.media.c2@1.2-mediatek.rc \
+    vendor/daria/zahedan/proprietary/vendor/etc/init/android.hardware.neuralnetworks@1.3-service-mtk-neuron.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks@1.3-service-mtk-neuron.rc \
     vendor/daria/zahedan/proprietary/vendor/etc/init/android.hardware.nfc@1.2-service-st.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.nfc@1.2-service-st.rc \
     vendor/daria/zahedan/proprietary/vendor/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc \
     vendor/daria/zahedan/proprietary/vendor/etc/init/android.hardware.sensors@2.0-service.multihal-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors@2.0-service.multihal-mediatek.rc \
@@ -297,6 +312,7 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/etc/init/fuelgauged_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_init.rc \
     vendor/daria/zahedan/proprietary/vendor/etc/init/fuelgauged_nvram_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_nvram_init.rc \
     vendor/daria/zahedan/proprietary/vendor/etc/init/gbe.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/gbe.rc \
+    vendor/daria/zahedan/proprietary/vendor/etc/init/getgameserver.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/getgameserver.rc \
     vendor/daria/zahedan/proprietary/vendor/etc/init/gsm0710muxd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/gsm0710muxd.rc \
     vendor/daria/zahedan/proprietary/vendor/etc/init/hostapd.android.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hostapd.android.rc \
     vendor/daria/zahedan/proprietary/vendor/etc/init/init.bip_ap.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.bip_ap.rc \
@@ -304,9 +320,13 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/etc/init/init.cccimdinit.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.cccimdinit.rc \
     vendor/daria/zahedan/proprietary/vendor/etc/init/init.cccirpcd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.cccirpcd.rc \
     vendor/daria/zahedan/proprietary/vendor/etc/init/init.connfem.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.connfem.rc \
+    vendor/daria/zahedan/proprietary/vendor/etc/init/init.conninfra.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.conninfra.rc \
     vendor/daria/zahedan/proprietary/vendor/etc/init/init.fmradio_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.fmradio_drv.rc \
     vendor/daria/zahedan/proprietary/vendor/etc/init/init.fpsgo.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.fpsgo.rc \
     vendor/daria/zahedan/proprietary/vendor/etc/init/init.gps_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.gps_drv.rc \
+    vendor/daria/zahedan/proprietary/vendor/etc/init/init.thermal.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.thermal.rc \
+    vendor/daria/zahedan/proprietary/vendor/etc/init/init.thermal_manager.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.thermal_manager.rc \
+    vendor/daria/zahedan/proprietary/vendor/etc/init/init.thermalloadalgod.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.thermalloadalgod.rc \
     vendor/daria/zahedan/proprietary/vendor/etc/init/init.vtservice_hidl.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vtservice_hidl.rc \
     vendor/daria/zahedan/proprietary/vendor/etc/init/init.wlan_drv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.wlan_drv.rc \
     vendor/daria/zahedan/proprietary/vendor/etc/init/ipsec_mon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ipsec_mon.rc \
@@ -332,10 +352,306 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/etc/init/vendor.mediatek.hardware.nwk_opt@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.nwk_opt@1.0-service.rc \
     vendor/daria/zahedan/proprietary/vendor/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc \
     vendor/daria/zahedan/proprietary/vendor/etc/init/volte_clientapi_ua.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/volte_clientapi_ua.rc \
+    vendor/daria/zahedan/proprietary/vendor/etc/init/vpud.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vpud.rc \
     vendor/daria/zahedan/proprietary/vendor/etc/init/wifimacaddr.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wifimacaddr.rc \
     vendor/daria/zahedan/proprietary/vendor/etc/init/wlan_assistant.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wlan_assistant.rc \
     vendor/daria/zahedan/proprietary/vendor/etc/libnfc-hal-st.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-hal-st.conf \
     vendor/daria/zahedan/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/DATA_ONLY.mcfota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/DATA_ONLY.mcfota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MP2.mcfota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MP2.mcfota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MP2_CN.mcfota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MP2_CN.mcfota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MP2_CN_NN.mcfota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MP2_CN_NN.mcfota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_MD_OTA_CONFIG.ini:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_MD_OTA_CONFIG.ini \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_GENERAL.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_GENERAL.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_1.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_1.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_10.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_10.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_100.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_100.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_1001.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_1001.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_1002.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_1002.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_1003.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_1003.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_1004.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_1004.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_101.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_101.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_102.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_102.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_103.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_103.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_104.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_104.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_105.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_105.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_106.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_106.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_107.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_107.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_108.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_108.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_109.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_109.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_11.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_11.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_110.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_110.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_111.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_111.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_112.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_112.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_113.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_113.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_114.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_114.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_115.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_115.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_116.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_116.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_117.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_117.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_118.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_118.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_119.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_119.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_12.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_12.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_120.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_120.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_121.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_121.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_122.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_122.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_124.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_124.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_125.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_125.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_126.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_126.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_127.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_127.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_128.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_128.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_129.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_129.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_130.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_130.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_131.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_131.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_132.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_132.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_133.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_133.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_134.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_134.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_135.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_135.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_136.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_136.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_137.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_137.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_139.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_139.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_140.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_140.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_141.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_141.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_143.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_143.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_144.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_144.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_145.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_145.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_146.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_146.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_147.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_147.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_148.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_148.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_149.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_149.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_15.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_15.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_150.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_150.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_151.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_151.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_152.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_152.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_153.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_153.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_154.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_154.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_155.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_155.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_156.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_156.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_157.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_157.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_158.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_158.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_159.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_159.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_16.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_16.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_160.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_160.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_161.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_161.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_162.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_162.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_163.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_163.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_164.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_164.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_165.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_165.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_166.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_166.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_168.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_168.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_169.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_169.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_17.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_17.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_170.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_170.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_171.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_171.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_172.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_172.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_174.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_174.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_175.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_175.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_176.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_176.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_177.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_177.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_178.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_178.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_179.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_179.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_18.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_18.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_180.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_180.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_181.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_181.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_182.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_182.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_183.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_183.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_184.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_184.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_185.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_185.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_186.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_186.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_187.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_187.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_188.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_188.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_189.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_189.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_19.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_19.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_190.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_190.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_191.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_191.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_192.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_192.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_193.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_193.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_195.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_195.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_196.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_196.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_198.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_198.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_199.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_199.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_2.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_2.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_20.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_20.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_200.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_200.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_201.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_201.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_202.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_202.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_203.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_203.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_204.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_204.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_205.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_205.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_206.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_206.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_207.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_207.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_208.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_208.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_209.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_209.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_21.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_21.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_210.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_210.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_211.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_211.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_212.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_212.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_213.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_213.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_214.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_214.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_215.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_215.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_216.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_216.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_217.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_217.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_218.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_218.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_219.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_219.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_220.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_220.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_221.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_221.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_222.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_222.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_223.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_223.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_224.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_224.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_225.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_225.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_227.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_227.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_228.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_228.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_231.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_231.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_232.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_232.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_233.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_233.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_234.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_234.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_235.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_235.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_236.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_236.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_237.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_237.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_238.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_238.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_239.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_239.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_240.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_240.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_241.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_241.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_242.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_242.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_243.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_243.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_244.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_244.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_245.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_245.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_246.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_246.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_247.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_247.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_248.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_248.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_249.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_249.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_250.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_250.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_251.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_251.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_252.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_252.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_253.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_253.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_254.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_254.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_255.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_255.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_256.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_256.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_257.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_257.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_258.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_258.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_259.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_259.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_260.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_260.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_261.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_261.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_262.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_262.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_263.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_263.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_264.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_264.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_265.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_265.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_266.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_266.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_267.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_267.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_268.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_268.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_269.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_269.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_270.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_270.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_271.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_271.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_272.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_272.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_273.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_273.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_274.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_274.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_275.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_275.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_276.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_276.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_277.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_277.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_278.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_278.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_279.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_279.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_280.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_280.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_281.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_281.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_282.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_282.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_283.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_283.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_284.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_284.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_285.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_285.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_286.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_286.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_287.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_287.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_288.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_288.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_289.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_289.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_290.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_290.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_291.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_291.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_292.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_292.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_293.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_293.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_294.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_294.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_295.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_295.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_296.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_296.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_297.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_297.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_298.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_298.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_299.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_299.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_3.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_3.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_301.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_301.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_302.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_302.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_304.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_304.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_306.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_306.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_307.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_307.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_310.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_310.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_312.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_312.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_313.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_313.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_314.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_314.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_315.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_315.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_316.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_316.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_318.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_318.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_319.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_319.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_320.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_320.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_321.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_321.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_322.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_322.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_323.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_323.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_324.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_324.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_325.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_325.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_326.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_326.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_327.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_327.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_328.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_328.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_329.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_329.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_332.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_332.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_333.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_333.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_334.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_334.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_335.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_335.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_336.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_336.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_337.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_337.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_338.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_338.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_339.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_339.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_340.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_340.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_341.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_341.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_344.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_344.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_345.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_345.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_347.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_347.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_348.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_348.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_350.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_350.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_352.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_352.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_353.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_353.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_354.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_354.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_355.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_355.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_356.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_356.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_357.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_357.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_358.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_358.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_359.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_359.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_360.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_360.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_362.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_362.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_363.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_363.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_364.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_364.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_365.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_365.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_366.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_366.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_367.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_367.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_368.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_368.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_369.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_369.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_370.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_370.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_371.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_371.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_372.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_372.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_373.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_373.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_374.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_374.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_375.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_375.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_376.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_376.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_377.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_377.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_378.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_378.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_379.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_379.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_383.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_383.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_386.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_386.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_387.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_387.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_389.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_389.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_5.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_5.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_50.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_50.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_6.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_6.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_7.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_7.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_8.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_8.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OPOTA_SBPID_9.mcfopota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OPOTA_SBPID_9.mcfopota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OTA.mcfota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OTA.mcfota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OTA_CERT_COMMON.mcfota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OTA_CERT_COMMON.mcfota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OTA_CMCC.mcfota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OTA_CMCC.mcfota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OTA_CT.mcfota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OTA_CT.mcfota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OTA_CU.mcfota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OTA_CU.mcfota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OTA_REL10.mcfota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OTA_REL10.mcfota \
+    vendor/daria/zahedan/proprietary/vendor/etc/mdota/MTK_OTA_REL11.mcfota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MTK_OTA_REL11.mcfota \
     vendor/daria/zahedan/proprietary/vendor/etc/mpe.conf:$(TARGET_COPY_OUT_VENDOR)/etc/mpe.conf \
     vendor/daria/zahedan/proprietary/vendor/etc/mtk_omx_core.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_omx_core.cfg \
     vendor/daria/zahedan/proprietary/vendor/etc/mtk_platform_codecs_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_platform_codecs_config.xml \
@@ -657,13 +973,13 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/lib/libMtkSpeechEnh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMtkSpeechEnh.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libNoFpsActor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libNoFpsActor.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libTEECommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libTEECommon.so \
     vendor/daria/zahedan/proprietary/vendor/lib/lib_iir.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_iir.so \
     vendor/daria/zahedan/proprietary/vendor/lib/lib_speech_enh.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_speech_enh.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libaal_key.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaal_key.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libaal_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaal_mtk.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libadpcmdec_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadpcmdec_mtk.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libaedv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaedv.so \
-    vendor/daria/zahedan/proprietary/vendor/lib/libaiselector.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaiselector.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libapmonitor_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libapmonitor_vendor.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libapu_mdw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libapu_mdw.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libapu_mdw_batch.so:$(TARGET_COPY_OUT_VENDOR)/lib/libapu_mdw_batch.so \
@@ -717,7 +1033,6 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/lib/libcustom_nvram.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcustom_nvram.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libcvsd_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcvsd_mtk.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libdecrypt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdecrypt.so \
-    vendor/daria/zahedan/proprietary/vendor/lib/libdpframework.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdpframework.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libdynamiclog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdynamiclog.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libfgauge_gm30.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfgauge_gm30.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libfile_op.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfile_op.so \
@@ -755,7 +1070,7 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/lib/libmp4enc_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmp4enc_sa.ca7.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libmp4enc_xa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmp4enc_xa.ca7.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libmsbc_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmsbc_mtk.so \
-    vendor/daria/zahedan/proprietary/vendor/lib/libmtk_drvb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtk_drvb.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libmtcloader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtcloader.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libmtkares.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkares.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libmtkcam.atmseventmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam.atmseventmgr.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libmtkcutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcutils.so \
@@ -771,7 +1086,7 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/lib/libneuroeara.so:$(TARGET_COPY_OUT_VENDOR)/lib/libneuroeara.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libneuron_graph_delegate.mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libneuron_graph_delegate.mtk.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libneuropilot_hal_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libneuropilot_hal_utils.so \
-    vendor/daria/zahedan/proprietary/vendor/lib/libnir_neon_driver.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnir_neon_driver.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libnir_neon_driver_ndk.mtk.vndk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnir_neon_driver_ndk.mtk.vndk.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libnvram.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvram.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libnvram_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvram_sec.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libnwk_opt_halwrap_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnwk_opt_halwrap_vendor.so \
@@ -781,14 +1096,15 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/lib/libpower_timer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpower_timer.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libpowerhalwrap_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpowerhalwrap_vendor.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libpq_cust_base.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpq_cust_base.so \
-    vendor/daria/zahedan/proprietary/vendor/lib/libpq_prot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpq_prot.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libpqframework.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpqframework.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libpqparamparser.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpqparamparser.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libpqpconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpqpconfig.so \
     vendor/daria/zahedan/proprietary/vendor/lib/librcs_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/librcs_interface.so \
     vendor/daria/zahedan/proprietary/vendor/lib/librcs_volte_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/librcs_volte_core.so \
     vendor/daria/zahedan/proprietary/vendor/lib/librgbwlightsensor.so:$(TARGET_COPY_OUT_VENDOR)/lib/librgbwlightsensor.so \
     vendor/daria/zahedan/proprietary/vendor/lib/librpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/librpc.so \
     vendor/daria/zahedan/proprietary/vendor/lib/librt_extamp_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib/librt_extamp_intf.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libscltm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscltm.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libsimlock.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsimlock.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libsimmelock.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsimmelock.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libspeech_enh_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libspeech_enh_lib.so \
@@ -797,6 +1113,7 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/lib/libsysenv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsysenv.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libteei_daemon_vfs.so:$(TARGET_COPY_OUT_VENDOR)/lib/libteei_daemon_vfs.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libtflite_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtflite_mtk.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libthermalalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthermalalgo.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libthha.so:$(TARGET_COPY_OUT_VENDOR)/lib/libthha.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libtranslator_mapi_v3.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtranslator_mapi_v3.0.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libtranslator_mdmi_v2.8.2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtranslator_mdmi_v2.8.2.so \
@@ -815,13 +1132,21 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/lib/libvp8dec_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvp8dec_sa.ca7.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libvp8enc_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvp8enc_sa.ca7.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libvp9dec_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvp9dec_sa.ca7.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libvpu.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpu.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libvpu5.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpu5.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libvpud_vcodec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpud_vcodec.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libvt_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvt_custom.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libwapi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwapi.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libwpa_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwpa_client.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so \
     vendor/daria/zahedan/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
     vendor/daria/zahedan/proprietary/vendor/lib/meta_wifi_data.so:$(TARGET_COPY_OUT_VENDOR)/lib/meta_wifi_data.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/mt6877/libaiselector.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6877/libaiselector.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/mt6877/libdpframework.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6877/libdpframework.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/mt6877/libmtk_drvb.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6877/libmtk_drvb.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/mt6877/libneuron_platform.vpu.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6877/libneuron_platform.vpu.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/mt6877/libnir_neon_driver.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6877/libnir_neon_driver.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/mt6877/libpq_prot.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6877/libpq_prot.so \
     vendor/daria/zahedan/proprietary/vendor/lib/ov16a1q_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/ov16a1q_mipi_raw_tuning.so \
     vendor/daria/zahedan/proprietary/vendor/lib/ov50a40_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/ov50a40_mipi_raw_tuning.so \
     vendor/daria/zahedan/proprietary/vendor/lib/soundfx/libaudiopreprocessing_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libaudiopreprocessing_mtk.so \
@@ -871,6 +1196,7 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/lib/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.mediatek.hardware.videotelephony@1.0.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/APUWareApusysServer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/APUWareApusysServer.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/APUWareUtilsServer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/APUWareUtilsServer.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/APUWareXrpServer_v2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/APUWareXrpServer_v2.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/arm.graphics-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/arm.graphics-V1-ndk_platform.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLES_mali.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/egl/libGLES_meow.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLES_meow.so \
@@ -920,6 +1246,7 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/lib64/lib3a.ae.core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.ae.core.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/lib3a.ae.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.ae.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/lib3a.ae.stat.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.ae.stat.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/lib3a.af.assist.models.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.af.assist.models.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/lib3a.af.assist.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.af.assist.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/lib3a.af.assist.utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.af.assist.utils.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/lib3a.af.core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.af.core.so \
@@ -1042,6 +1369,7 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/lib64/libSonyIMX519PdafLibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSonyIMX519PdafLibrary.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libSonyIMX519PdafLibraryWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSonyIMX519PdafLibraryWrapper.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libTEECommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libTEECommon.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/lib_bsscore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_bsscore.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/lib_eara_io_scndet.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_eara_io_scndet.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/lib_eara_io_service.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_eara_io_service.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/lib_eara_io_systracer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_eara_io_systracer.so \
@@ -1057,12 +1385,14 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/lib64/libadpcmdec_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadpcmdec_mtk.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libaedv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaedv.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libaiawb_moon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaiawb_moon.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libaiawb_moon_model.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaiawb_moon_model.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libaiawb_p1ggm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaiawb_p1ggm.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libaiawb_sun.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaiawb_sun.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libaiawb_sun_model.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaiawb_sun_model.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libaibc_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaibc_tuning.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libaibc_tuning_p2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaibc_tuning_p2.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libaibc_tuning_p3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaibc_tuning_p3.so \
-    vendor/daria/zahedan/proprietary/vendor/lib64/libaiselector.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaiselector.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libainrcore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libainrcore.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libapmonitor_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libapmonitor_vendor.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libapu_mdw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libapu_mdw.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libapu_mdw_batch.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libapu_mdw_batch.so \
@@ -1125,6 +1455,9 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/lib64/libcam.utils.sensorprovider.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.utils.sensorprovider.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libcam.vhdr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.vhdr.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libcamalgo.3dnr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.3dnr.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libcamalgo.aibc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.aibc.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libcamalgo.aihdr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.aihdr.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libcamalgo.ainr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.ainr.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libcamalgo.dngop.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.dngop.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libcamalgo.eis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.eis.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libcamalgo.fdft.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.fdft.so \
@@ -1133,6 +1466,7 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/lib64/libcamalgo.ispfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.ispfeature.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libcamalgo.lmv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.lmv.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libcamalgo.lsc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.lsc.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libcamalgo.mfnr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.mfnr.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libcamalgo.n3d.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.n3d.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libcamalgo.nr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.nr.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libcamalgo.platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.platform.so \
@@ -1141,6 +1475,7 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/lib64/libcamalgo.utility.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.utility.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libcamalgo.vsf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.vsf.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libcamalgo.warp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamalgo.warp.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libcamdrv_imem.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamdrv_imem.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libcamdrv_isp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamdrv_isp.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libcamdrv_tuning_mgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamdrv_tuning_mgr.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libcamdrv_twin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcamdrv_twin.so \
@@ -1153,6 +1488,7 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/lib64/libcameracustom.camera.isp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcameracustom.camera.isp.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libcameracustom.camera.sensors.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcameracustom.camera.sensors.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libcameracustom.camera_exif.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcameracustom.camera_exif.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libcameracustom.eis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcameracustom.eis.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libcameracustom.flashlight.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcameracustom.flashlight.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libcameracustom.lens.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcameracustom.lens.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libcameracustom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcameracustom.so \
@@ -1178,8 +1514,8 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/lib64/libcvsd_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcvsd_mtk.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libdecrypt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdecrypt.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libdip_drv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdip_drv.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libdip_imem.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdip_imem.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libdip_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdip_postproc.so \
-    vendor/daria/zahedan/proprietary/vendor/lib64/libdpframework.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdpframework.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libdynamiclog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdynamiclog.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libeffecthal.base.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libeffecthal.base.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libem_sensor_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libem_sensor_jni.so \
@@ -1187,6 +1523,7 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/lib64/libfeature.stereo.provider.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeature.stereo.provider.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libfeature.vsdof.hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeature.vsdof.hal.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libfeature_3dnr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeature_3dnr.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libfeature_eis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeature_eis.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libfeature_fsc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeature_fsc.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libfeature_lmv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeature_lmv.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libfeature_rss.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeature_rss.so \
@@ -1196,6 +1533,7 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/lib64/libforkexecwrap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libforkexecwrap.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libformatter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libformatter.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libged.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libged.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libgf_hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_hal.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libgpu_aux.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgpu_aux.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libgpud.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgpud.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libgpudataproducer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgpudataproducer.so \
@@ -1228,6 +1566,8 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/lib64/libksensor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libksensor.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libladder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libladder.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/liblpcnr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblpcnr.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libm4u.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libm4u.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libmfllcore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmfllcore.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libmipc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmipc.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libmmagent.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmagent.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libmml.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmml.so \
@@ -1238,9 +1578,9 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/lib64/libmp3dec_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmp3dec_mtk.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libmsbc_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmsbc_mtk.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libmsnr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmsnr.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libmtcloader.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtcloader.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libmtk-fusion-ril-prop-vsim.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtk-fusion-ril-prop-vsim.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libmtk-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtk-ril.so \
-    vendor/daria/zahedan/proprietary/vendor/lib64/libmtk_drvb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtk_drvb.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libmtkares.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkares.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libmtkcam.atmseventmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam.atmseventmgr.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libmtkcam.eventcallback.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam.eventcallback.so \
@@ -1324,10 +1664,12 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/lib64/libmtktinyxml.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtktinyxml.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libmtkutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkutils.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libneuroeara.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuroeara.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libneuron_adapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuron_adapter.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libneuron_graph_delegate.mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuron_graph_delegate.mtk.so \
-    vendor/daria/zahedan/proprietary/vendor/lib64/libneuron_runtime.5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuron_runtime.5.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libneuron_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuron_platform.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libneuron_wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuron_wrapper.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libneuropilot_hal_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libneuropilot_hal_utils.so \
-    vendor/daria/zahedan/proprietary/vendor/lib64/libnir_neon_driver.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnir_neon_driver.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libnir_neon_driver_ndk.mtk.vndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnir_neon_driver_ndk.mtk.vndk.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libnvram.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnvram.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libnvram_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnvram_sec.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libnwk_opt_halwrap_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnwk_opt_halwrap_vendor.so \
@@ -1337,15 +1679,17 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/lib64/libpower_timer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpower_timer.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libpowerhalwrap_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpowerhalwrap_vendor.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libpq_cust_base.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpq_cust_base.so \
-    vendor/daria/zahedan/proprietary/vendor/lib64/libpq_prot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpq_prot.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libpqframework.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpqframework.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libpqparamparser.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpqparamparser.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libpqpconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpqpconfig.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libprizeem_sensor_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libprizeem_sensor_jni.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libratconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libratconfig.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/librgbwlightsensor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librgbwlightsensor.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/librilfusion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librilfusion.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/librpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librpc.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/librt_extamp_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librt_extamp_intf.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libscltm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscltm.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libsensor_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensor_custom.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libsimlock.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsimlock.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libsimmelock.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsimmelock.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libspeech_enh_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libspeech_enh_lib.so \
@@ -1365,6 +1709,7 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/lib64/libudf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libudf.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libvcodec_oal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvcodec_oal.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libvcodecdrv_header_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvcodecdrv_header_stub.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libvia-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvia-ril.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libviagpsrpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libviagpsrpc.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libviamipc-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libviamipc-ril.so \
@@ -1373,6 +1718,7 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/lib64/libvow_ap_test_ha.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvow_ap_test_ha.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libvow_ap_test_hh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvow_ap_test_hh.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libvow_ap_test_nn.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvow_ap_test_nn.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libvpu.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpu.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libvpu5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpu5.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libwapi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwapi.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libwifitest.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifitest.so \
@@ -1381,6 +1727,16 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/lib64/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwvhidl.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libwvdrmengine.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/meta_wifi_data.so:$(TARGET_COPY_OUT_VENDOR)/lib64/meta_wifi_data.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/mt6877/libaiselector.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6877/libaiselector.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/mt6877/libdpframework.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6877/libdpframework.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/mt6877/libmcv_runtime.mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6877/libmcv_runtime.mtk.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/mt6877/libmdla_ut.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6877/libmdla_ut.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/mt6877/libmtk_drvb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6877/libmtk_drvb.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/mt6877/libneuron_platform.vpu.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6877/libneuron_platform.vpu.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/mt6877/libneuron_runtime.5.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6877/libneuron_runtime.5.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/mt6877/libneuron_runtime.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6877/libneuron_runtime.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/mt6877/libnir_neon_driver.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6877/libnir_neon_driver.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/mt6877/libpq_prot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6877/libpq_prot.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/mtkcam/libmtkcam_streaminfo_plugin-p1stt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mtkcam/libmtkcam_streaminfo_plugin-p1stt.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/nfc_nci.st21nfc.st.so:$(TARGET_COPY_OUT_VENDOR)/lib64/nfc_nci.st21nfc.st.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/nwk_opt_imp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/nwk_opt_imp.so \
@@ -1393,6 +1749,7 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/lib64/vendor.mediatek.hardware.apuware.apusys@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.apuware.apusys@2.0.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/vendor.mediatek.hardware.apuware.apusys@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.apuware.apusys@2.1.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/vendor.mediatek.hardware.apuware.utils@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.apuware.utils@2.0.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/vendor.mediatek.hardware.apuware.xrp@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.apuware.xrp@2.0.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/vendor.mediatek.hardware.atci@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.atci@1.0.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/vendor.mediatek.hardware.audio@6.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.audio@6.1.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/vendor.mediatek.hardware.audio@7.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.audio@7.1.so \
@@ -1466,6 +1823,7 @@ PRODUCT_PACKAGES += \
     libwifi-hal-mtk \
     libfmjni \
     ImsService \
+    GpuGameDriver.mt6877 \
     mediatek-common \
     mediatek-framework \
     mediatek-ims-base \

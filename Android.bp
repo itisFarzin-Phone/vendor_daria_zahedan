@@ -70,6 +70,18 @@ android_app_import {
 	privileged: true,
 }
 
+android_app_import {
+	name: "GpuGameDriver.mt6877",
+	owner: "daria",
+	apk: "proprietary/vendor/priv-app/GpuGameDriver.mt6877/GpuGameDriver.mt6877.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+	soc_specific: true,
+}
+
 dex_import {
 	name: "mediatek-common",
 	owner: "daria",
