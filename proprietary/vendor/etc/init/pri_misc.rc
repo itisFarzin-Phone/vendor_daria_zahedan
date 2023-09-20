@@ -51,6 +51,9 @@ on post-fs-data
 	chmod 0666 /sys/devices/virtual/air_quality/air_quality_data/air_quality_hcho
 #irtorch
 	chmod 0666 /sys/class/flashlight_core/flashlight/flashlight_irtorch
+
+#subtorch
+	chmod 0666 /sys/class/flashlight_core/flashlight/flashlight_subtorch
 	
 #prize add by lipengpeng 20210303 start 
     chmod 0666  /sys/class/flashlight_core/flashlight/flashlight_hwtorch

@@ -84,6 +84,17 @@
       tls="true"
   />
 
+  <cur_up_ssr_profile name="ssr_caict"
+      addr="supl.bd-caict.com"
+      port="7275"
+      tls="true"
+      supl_version="2"
+      supl_version_minor="0"
+      supl_version_ser_ind="4"
+      tls_version="1"
+      sha_version="0"
+  />
+
   <!-- GOOGLE-->
   <supl_profile name="GOOGLE"
       addr="supl.google.com"
@@ -198,6 +209,13 @@
   <!-- qxwz: China Public Server on Internet -->
   <supl_profile name="qxwz"
       addr="supl.qxwz.com"
+      port="7275"
+      tls="true"
+  />
+
+  <!-- caict: China Public Server on Internet -->
+  <supl_profile name="caict"
+      addr="supl.bd-caict.com"
       port="7275"
       tls="true"
   />
@@ -532,6 +550,7 @@
     lppe_dbh_cache_max_age="1024"
     lppe_dbh_gnss_cache_max_age="1024"
     lppe_dbh_fill_gnss_when_bad_nlp_enable="false"
+    ssr_protocol="0"
   />
 
 
@@ -556,9 +575,17 @@
   -->
   <gnss_setting
     sib8_16_enable="true"
-    a_glonass_satellite_enable="true"
-    a_beidou_satellite_enable="true"
-    a_galileo_satellite_enable="true"
+    gps_satellite_enable = "true"
+    glonass_satellite_enable = "true"
+    beidou_satellite_enable = "true"
+    galileo_satellite_enable = "true"
+    a_glonass_satellite_enable = "true"
+    a_gps_satellite_enable = "true"
+    a_beidou_satellite_enable = "true"
+    a_galileo_satellite_enable = "true"
+    a_qzss_enable = "false"
+    a_b1c_enable = "false"
+    a_navic_enable = "false"
   />
 
   <!-- cp_setting
@@ -628,6 +655,10 @@
     cp_lppe_dbh_enable:
         enable/disable CP LPPe Device Based Hybrid functionality (tc1 requirement)
         available value: true (default), false
+
+    cp_lppe_civic_enable:
+        enable/disable CP LPPe civic address functionality (tc1 requirement)
+        available value: true (default), false
   -->
   <cp_setting
     molr_pos_method="0"
@@ -642,18 +673,21 @@
     cp_2g_disable="false"
     cp_3g_disable="false"
     cp_4g_disable="false"
+    cp_5g_disable="false"
     cp_lppe_enable="true"
     cp_lppe_wlan_enable="true"
     cp_lppe_srn_enable="true"
     cp_lppe_sensor_enable="true"
     cp_lppe_dbh_enable="true"
+    cp_lppe_civic_enable="true"
+    cp_ssr_enable="true"
   />
 
   <!-- up_setting
 
     ca_enable:
         enable/disable the certificate verification
-        available value: true, false (default)
+        available value: true (default), false
 
     ni_request:
         enable/disable Network Initiated (NI) functionality
@@ -769,7 +803,7 @@
 
     imsi_enable:
         enable/disable the valid IMSI in SUPL messages
-        available value: true (default), false
+        available value: true, false (default)
 
     no_sensitive_log:
         remove/allow agps daemon's log with sensitive info (e.g., the current location)
@@ -857,6 +891,10 @@
         enable/disable UP LPPe Device Based Hybrid functionality (tc1 requirement)
         available value: true (default), false
 
+    up_lppe_civic_enable:
+        enable/disable UP LPPe civic address functionality (tc1 requirement)
+        available value: true (default), false
+
     ip_version_prefer
         select the preferred mode for IP version when connnecting to the SUPL server (Softbank requirement)
         available value: 0 IPv6 if we have both (default)
@@ -908,12 +946,25 @@
                             allow hiding the location icon and
                             allow locationing for the privacy override SUPL INIT even if GVC does not allow non-framework locationing
 
+    tc10_supl_ssl_method
+        decide the SSL method for TC10
+        available value: 1 SSLv3
+                         2 SSLv23
+                         3 TLSv1
+
+    tc10_enable
+        decide if we can accept LPP_PROFILE from GNSS HIDL
+        available value: true, false (default)
+
     operation_mode
         Seletc the operation_mode for some supl server or test cases
         available value: 0  common mode (default)
                          1  for Spirent's DOCOMO_SUPL_IOT_UEB_AGNSS_WCDMA_SUPLV2_TP2 test cases
                               Disable ganssIonosphericModel, ganssAdditionalIonosphericModelForDataID11, ganssEarthOrientationParameters (for TC-0024)
                               use notEnoughSats but do not use notEnoughGANSSSats (for TC-0014, TC-0024 and TC-0031)
+                         2  for RAKUTEN AGPS spec requirement, ALPS07517070.
+                              a. Set position method by MSA/MSB, not by XML config.
+                              b. Do not change MSA/MSB type during one SUPL session.
 
     glonass_msa_enable
         enable/disable the MSA capability for glonass
@@ -942,6 +993,12 @@
     customer_ca_path
         now ca_enable=true by default, so customer may need install SUPL certification. Use this to
         include customer's SUPL certification path.
+        For eAP project, the recommended value is /mnt/remotefs/lbs/cacerts_supl
+
+    eap_carrier_cfg_template
+        carrier config files can be loaded from eAP remote file system.
+        use this to specify eAP carrier files path template.
+        For eAP project, the recommended value is /mnt/remotefs/lbs/carrier/agps_profiles_conf2_carrier_%s.xml
   -->
   <up_setting
     ca_enable="true"
@@ -973,7 +1030,7 @@
     ut2="11"
     ut3="10"
     sync_to_slp="false"
-    imsi_enable="true"
+    imsi_enable="false"
     no_sensitive_log="true"
     supl_ver_minor="0"
     supl_ver_ser_ind="4"
@@ -992,6 +1049,7 @@
     up_lppe_srn_enable="true"
     up_lppe_sensor_enable="true"
     up_lppe_dbh_enable="true"
+    up_lppe_civic_enable="true"
     ip_version_prefer="0"
     up_lpp_in_2g3g_disable="false"
     up_rrlp_in_4g_disable="false"
@@ -1005,7 +1063,10 @@
     beidou_msb_enable="true"
     galileo_msa_enable="true"
     galileo_msb_enable="true"
-    customer_ca_path="odm/etc/gnss/cacerts_supl/"
+    freq_Otdoa_enable="true"
+    customer_ca_path=""
+    eap_carrier_cfg_template = ""
+    up_ssr_enable="true"
   />
 
   <!-- carrier_mapping

@@ -3,7 +3,7 @@
  <Param name="MTK_WB_SPEECH_SUPPORT" value="" />
  <Param name="MTK_AUDIO_HD_REC_SUPPORT" value="yes" />
  <Param name="MTK_DUAL_MIC_SUPPORT" value="yes" />
- <Param name="MTK_HANDSFREE_DMNR_SUPPORT" value="yes" />
+ <Param name="MTK_HANDSFREE_DMNR_SUPPORT" value="no" />
  <Param name="DMNR_TUNNING_AT_MODEMSIDE" value="" />
  <Param name="MTK_VOIP_ENHANCEMENT_SUPPORT" value="yes" />
  <Param name="MTK_TB_WIFI_3G_MODE" value="" />

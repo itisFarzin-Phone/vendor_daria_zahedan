@@ -109,6 +109,12 @@ on load_persist_props_action
     chmod 0771 /data/vendor/key_provisioning
     chown system system /data/vendor/key_provisioning
     write /proc/bootprof "start teei cfg end (on load_persist_props_action)"
+    #prize add by durunshen for fingerprint, X9LAVA-451 start 
+    #start vendor.fps_hal
+    #prize add by durunshen for fingerprint, X9LAVA-451 end
+    #prize add by durunshen, fingerprint vts_treble_vintf_vendor_test  20230327-start
+    start vendor.fingerprint_hal
+    #prize add by durunshen, fingerprint vts_treble_vintf_vendor_test  20230327-end
 
 on property:vold.decrypt=trigger_restart_framework
     write /proc/bootprof "start teei cfg (on trigger_restart_framework)"

@@ -20,6 +20,8 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/lib/vendor.mediatek.hardware.pq@2.2.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.pq@2.2.so \
     vendor/daria/zahedan/proprietary/lib/vendor.mediatek.hardware.pq@2.3.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.mediatek.hardware.pq@2.3.so \
     vendor/daria/zahedan/proprietary/lib64/libcomutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libcomutils.so \
+    vendor/daria/zahedan/proprietary/lib64/libged_sys.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libged_sys.so \
+    vendor/daria/zahedan/proprietary/lib64/libgralloc_extra_sys.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libgralloc_extra_sys.so \
     vendor/daria/zahedan/proprietary/lib64/libimsma.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libimsma.so \
     vendor/daria/zahedan/proprietary/lib64/libimsma_adapt.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libimsma_adapt.so \
     vendor/daria/zahedan/proprietary/lib64/libimsma_rtp.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libimsma_rtp.so \
@@ -28,6 +30,7 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/lib64/libmtk_vt_service.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtk_vt_service.so \
     vendor/daria/zahedan/proprietary/lib64/libmtk_vt_wrapper.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtk_vt_wrapper.so \
     vendor/daria/zahedan/proprietary/lib64/libmtkperf_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtkperf_client.so \
+    vendor/daria/zahedan/proprietary/lib64/libsf_cpupolicy.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsf_cpupolicy.so \
     vendor/daria/zahedan/proprietary/lib64/libshowlogo.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libshowlogo.so \
     vendor/daria/zahedan/proprietary/lib64/libsignal.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsignal.so \
     vendor/daria/zahedan/proprietary/lib64/libsink.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsink.so \
@@ -41,6 +44,69 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/lib64/vendor.mediatek.hardware.pq@2.2.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.mediatek.hardware.pq@2.2.so \
     vendor/daria/zahedan/proprietary/lib64/vendor.mediatek.hardware.pq@2.3.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/vendor.mediatek.hardware.pq@2.3.so \
     vendor/daria/zahedan/proprietary/system_ext/lib/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.videotelephony@1.0.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/libBSTBeautyAPK.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libBSTBeautyAPK.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/libUvPanorama.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libUvPanorama.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/libaed.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libaed.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/libapuwareapusys.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libapuwareapusys.mtk.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/libapuwareapusys_v2.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libapuwareapusys_v2.mtk.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/libapuwarehmp.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libapuwarehmp.mtk.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/libapuwareutils.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libapuwareutils.mtk.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/libapuwareutils_v2.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libapuwareutils_v2.mtk.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/libapuwarexrp.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libapuwarexrp.mtk.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/libapuwarexrp_v2.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libapuwarexrp_v2.mtk.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/libarmnn_ndk.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libarmnn_ndk.mtk.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/libaudiocompensationfilter.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libaudiocompensationfilter.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/libaudiotoolkit.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libaudiotoolkit.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/libcmdl_ndk.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libcmdl_ndk.mtk.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/libcomposer_ext.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libcomposer_ext.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/libdrmmtkutil.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdrmmtkutil.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/libdrmmtkwhitelist.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libdrmmtkwhitelist.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/libjni_bstbeauty.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libjni_bstbeauty.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/libjni_bstfilter.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libjni_bstfilter.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/libjni_uvpanorama.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libjni_uvpanorama.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/libloadfilter.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libloadfilter.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/libmcv_runtime_usdk.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmcv_runtime_usdk.mtk.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/libmdloggerrecycle.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmdloggerrecycle.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/libmvpu_cic_ci_compiler.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmvpu_cic_ci_compiler.mtk.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/libmvpu_clc_mvpu_debuginfo.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmvpu_clc_mvpu_debuginfo.mtk.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/libmvpu_clc_mvpu_elf.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmvpu_clc_mvpu_elf.mtk.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/libmvpu_clc_mvpu_utility.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmvpu_clc_mvpu_utility.mtk.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/libmvpu_config.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmvpu_config.mtk.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/libmvpu_engine.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmvpu_engine.mtk.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/libmvpu_engine_pub.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmvpu_engine_pub.mtk.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/libmvpu_pattern.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmvpu_pattern.mtk.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/libmvpu_pattern_pub.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmvpu_pattern_pub.mtk.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/libmvpu_runtime.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmvpu_runtime.mtk.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/libmvpu_runtime_builtin.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmvpu_runtime_builtin.mtk.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/libmvpu_runtime_pub.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmvpu_runtime_pub.mtk.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/libmvpuop_mtk_cv.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmvpuop_mtk_cv.mtk.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/libmvpuop_mtk_nn.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libmvpuop_mtk_nn.mtk.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/libneuron_graph_delegate.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libneuron_graph_delegate.mtk.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/libneuronusdk_adapter.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libneuronusdk_adapter.mtk.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/libnir_neon_driver_ndk.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libnir_neon_driver_ndk.mtk.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/libpcap_bak.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libpcap_bak.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/libteeservice_client.trustonic.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libteeservice_client.trustonic.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/libtensorflowlite24.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libtensorflowlite24.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/libtflite_mtk.mtk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libtflite_mtk.mtk.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/vendor.mediatek.hardware.aee@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.aee@1.0.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/vendor.mediatek.hardware.aee@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.aee@1.1.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/vendor.mediatek.hardware.apuware.apusys@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.apuware.apusys@1.0.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/vendor.mediatek.hardware.apuware.apusys@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.apuware.apusys@2.0.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/vendor.mediatek.hardware.apuware.apusys@2.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.apuware.apusys@2.1.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/vendor.mediatek.hardware.apuware.hmp@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.apuware.hmp@1.0.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/vendor.mediatek.hardware.apuware.utils@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.apuware.utils@1.0.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/vendor.mediatek.hardware.apuware.utils@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.apuware.utils@2.0.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/vendor.mediatek.hardware.apuware.xrp@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.apuware.xrp@1.0.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/vendor.mediatek.hardware.apuware.xrp@2.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.apuware.xrp@2.0.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/vendor.mediatek.hardware.audio@7.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.audio@7.1.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/vendor.mediatek.hardware.audio@8.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.audio@8.1.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/vendor.mediatek.hardware.composer_ext@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.composer_ext@1.0.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/vendor.mediatek.hardware.lbs@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.lbs@1.0.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/vendor.mediatek.hardware.log@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.log@1.0.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/vendor.mediatek.hardware.mtkpower@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.mtkpower@1.0.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/vendor.mediatek.hardware.mtkpower@1.1.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.mtkpower@1.1.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/vendor.mediatek.hardware.mtkpower@1.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.mtkpower@1.2.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/vendor.mediatek.hardware.mtkradioex@3.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.mtkradioex@3.0.so \
     vendor/daria/zahedan/proprietary/system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.videotelephony@1.0.so \
     vendor/daria/zahedan/proprietary/vendor/bin/AgentTest:$(TARGET_COPY_OUT_VENDOR)/bin/AgentTest \
     vendor/daria/zahedan/proprietary/vendor/bin/STFlashTool:$(TARGET_COPY_OUT_VENDOR)/bin/STFlashTool \
@@ -61,6 +127,7 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/bin/dtc_vendor:$(TARGET_COPY_OUT_VENDOR)/bin/dtc_vendor \
     vendor/daria/zahedan/proprietary/vendor/bin/eara_io_service:$(TARGET_COPY_OUT_VENDOR)/bin/eara_io_service \
     vendor/daria/zahedan/proprietary/vendor/bin/factory:$(TARGET_COPY_OUT_VENDOR)/bin/factory \
+    vendor/daria/zahedan/proprietary/vendor/bin/fpsgo:$(TARGET_COPY_OUT_VENDOR)/bin/fpsgo \
     vendor/daria/zahedan/proprietary/vendor/bin/fuelgauged:$(TARGET_COPY_OUT_VENDOR)/bin/fuelgauged \
     vendor/daria/zahedan/proprietary/vendor/bin/fuelgauged_nvram:$(TARGET_COPY_OUT_VENDOR)/bin/fuelgauged_nvram \
     vendor/daria/zahedan/proprietary/vendor/bin/gbe:$(TARGET_COPY_OUT_VENDOR)/bin/gbe \
@@ -84,6 +151,7 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/bin/hw/hostapd:$(TARGET_COPY_OUT_VENDOR)/bin/hw/hostapd \
     vendor/daria/zahedan/proprietary/vendor/bin/hw/mtkfusionrild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/mtkfusionrild \
     vendor/daria/zahedan/proprietary/vendor/bin/hw/tetheroffloadservice:$(TARGET_COPY_OUT_VENDOR)/bin/hw/tetheroffloadservice \
+    vendor/daria/zahedan/proprietary/vendor/bin/hw/vendor.bst.hardware.face@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.bst.hardware.face@1.0-service \
     vendor/daria/zahedan/proprietary/vendor/bin/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-service \
     vendor/daria/zahedan/proprietary/vendor/bin/hw/vendor.mediatek.hardware.mmagent@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.mmagent@1.1-service \
     vendor/daria/zahedan/proprietary/vendor/bin/hw/vendor.mediatek.hardware.mms@1.6-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.mms@1.6-service \
@@ -98,6 +166,7 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/bin/lbs_hidl_service:$(TARGET_COPY_OUT_VENDOR)/bin/lbs_hidl_service \
     vendor/daria/zahedan/proprietary/vendor/bin/md_monitor:$(TARGET_COPY_OUT_VENDOR)/bin/md_monitor \
     vendor/daria/zahedan/proprietary/vendor/bin/md_monitor_ctrl:$(TARGET_COPY_OUT_VENDOR)/bin/md_monitor_ctrl \
+    vendor/daria/zahedan/proprietary/vendor/bin/meta_tst:$(TARGET_COPY_OUT_VENDOR)/bin/meta_tst \
     vendor/daria/zahedan/proprietary/vendor/bin/mnld:$(TARGET_COPY_OUT_VENDOR)/bin/mnld \
     vendor/daria/zahedan/proprietary/vendor/bin/mrdump_tool:$(TARGET_COPY_OUT_VENDOR)/bin/mrdump_tool \
     vendor/daria/zahedan/proprietary/vendor/bin/mt6660_calibration:$(TARGET_COPY_OUT_VENDOR)/bin/mt6660_calibration \
@@ -127,6 +196,7 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/etc/AbnormalDisplayLog_dynamic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/AbnormalDisplayLog_dynamic.xml \
     vendor/daria/zahedan/proprietary/vendor/etc/AudioLog_dynamic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/AudioLog_dynamic.xml \
     vendor/daria/zahedan/proprietary/vendor/etc/BSTAISCENE:$(TARGET_COPY_OUT_VENDOR)/etc/BSTAISCENE \
+    vendor/daria/zahedan/proprietary/vendor/etc/BSTAI_HDR:$(TARGET_COPY_OUT_VENDOR)/etc/BSTAI_HDR \
     vendor/daria/zahedan/proprietary/vendor/etc/BSTSWADParamList.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/BSTSWADParamList.cfg \
     vendor/daria/zahedan/proprietary/vendor/etc/BSTSWAD_AI:$(TARGET_COPY_OUT_VENDOR)/etc/BSTSWAD_AI \
     vendor/daria/zahedan/proprietary/vendor/etc/BSTSWAD_Calib.bin:$(TARGET_COPY_OUT_VENDOR)/etc/BSTSWAD_Calib.bin \
@@ -135,8 +205,8 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/etc/aibokeh_0.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/aibokeh_0.cfg \
     vendor/daria/zahedan/proprietary/vendor/etc/aibokeh_1.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/aibokeh_1.cfg \
     vendor/daria/zahedan/proprietary/vendor/etc/aibokeh_BSTAI:$(TARGET_COPY_OUT_VENDOR)/etc/aibokeh_BSTAI \
-    vendor/daria/zahedan/proprietary/vendor/etc/apdb/APDB_MT6853_S01__W2244:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6853_S01__W2244 \
-    vendor/daria/zahedan/proprietary/vendor/etc/apdb/APDB_MT6853_S01__W2244_ENUM:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6853_S01__W2244_ENUM \
+    vendor/daria/zahedan/proprietary/vendor/etc/apdb/APDB_MT6853_S01__W2321:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6853_S01__W2321 \
+    vendor/daria/zahedan/proprietary/vendor/etc/apdb/APDB_MT6853_S01__W2321_ENUM:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6853_S01__W2321_ENUM \
     vendor/daria/zahedan/proprietary/vendor/etc/armnn_app.config:$(TARGET_COPY_OUT_VENDOR)/etc/armnn_app.config \
     vendor/daria/zahedan/proprietary/vendor/etc/audio_param/AudioParamOptions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/AudioParamOptions.xml \
     vendor/daria/zahedan/proprietary/vendor/etc/audio_param/AudioParamOptions_vext.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/AudioParamOptions_vext.xml \
@@ -254,9 +324,12 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/etc/audio_param/Volume_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Volume_ParamUnitDesc.xml \
     vendor/daria/zahedan/proprietary/vendor/etc/aurisys_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/aurisys_config.xml \
     vendor/daria/zahedan/proprietary/vendor/etc/aurisys_config_rv.xml:$(TARGET_COPY_OUT_VENDOR)/etc/aurisys_config_rv.xml \
-    vendor/daria/zahedan/proprietary/vendor/etc/bstBackLightDetect.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/bstBackLightDetect.cfg \
+    vendor/daria/zahedan/proprietary/vendor/etc/bstFaceUnlock.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/bstFaceUnlock.cfg \
     vendor/daria/zahedan/proprietary/vendor/etc/bst_filter_config.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/bst_filter_config.cfg \
     vendor/daria/zahedan/proprietary/vendor/etc/bstbeauty.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/bstbeauty.cfg \
+    vendor/daria/zahedan/proprietary/vendor/etc/calibration_16_9.bin:$(TARGET_COPY_OUT_VENDOR)/etc/calibration_16_9.bin \
+    vendor/daria/zahedan/proprietary/vendor/etc/calibration_16_9_60fps.bin:$(TARGET_COPY_OUT_VENDOR)/etc/calibration_16_9_60fps.bin \
+    vendor/daria/zahedan/proprietary/vendor/etc/calibration_4_3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/calibration_4_3.bin \
     vendor/daria/zahedan/proprietary/vendor/etc/cgroups.json:$(TARGET_COPY_OUT_VENDOR)/etc/cgroups.json \
     vendor/daria/zahedan/proprietary/vendor/etc/control_param_AiScene_encode.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/control_param_AiScene_encode.cfg \
     vendor/daria/zahedan/proprietary/vendor/etc/cust_color.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cust_color.xml \
@@ -286,6 +359,7 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Test_SIM1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_Test_SIM1.xml \
     vendor/daria/zahedan/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Test_SIM2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_Test_SIM2.xml \
     vendor/daria/zahedan/proprietary/vendor/etc/gnss/carrier/agps_profiles_conf2_carrier_Verizon_Wireless.xml:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/carrier/agps_profiles_conf2_carrier_Verizon_Wireless.xml \
+    vendor/daria/zahedan/proprietary/vendor/etc/hdr.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/hdr.cfg \
     vendor/daria/zahedan/proprietary/vendor/etc/init/android.hardware.audio.service.mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.audio.service.mediatek.rc \
     vendor/daria/zahedan/proprietary/vendor/etc/init/android.hardware.bluetooth@1.1-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.1-service-mediatek.rc \
     vendor/daria/zahedan/proprietary/vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.4-service.widevine.rc \
@@ -307,6 +381,7 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/etc/init/chipinfo_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/chipinfo_init.rc \
     vendor/daria/zahedan/proprietary/vendor/etc/init/dmc_core.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dmc_core.rc \
     vendor/daria/zahedan/proprietary/vendor/etc/init/eara-io-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/eara-io-service.rc \
+    vendor/daria/zahedan/proprietary/vendor/etc/init/fpsgo.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fpsgo.rc \
     vendor/daria/zahedan/proprietary/vendor/etc/init/fuelgauged_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_init.rc \
     vendor/daria/zahedan/proprietary/vendor/etc/init/fuelgauged_nvram_init.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fuelgauged_nvram_init.rc \
     vendor/daria/zahedan/proprietary/vendor/etc/init/gbe.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/gbe.rc \
@@ -341,6 +416,7 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/etc/init/nvram_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/nvram_daemon.rc \
     vendor/daria/zahedan/proprietary/vendor/etc/init/pri_misc.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/pri_misc.rc \
     vendor/daria/zahedan/proprietary/vendor/etc/init/tetheroffloadservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/tetheroffloadservice.rc \
+    vendor/daria/zahedan/proprietary/vendor/etc/init/vendor.bst.hardware.face@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.bst.hardware.face@1.0-service.rc \
     vendor/daria/zahedan/proprietary/vendor/etc/init/vendor.mediatek.hardware.keymaster_attestation@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.keymaster_attestation@1.1-service.rc \
     vendor/daria/zahedan/proprietary/vendor/etc/init/vendor.mediatek.hardware.mmagent@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mmagent@1.1-service.rc \
     vendor/daria/zahedan/proprietary/vendor/etc/init/vendor.mediatek.hardware.mms@1.6-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mms@1.6-service.rc \
@@ -355,6 +431,43 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/etc/init/wlan_assistant.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wlan_assistant.rc \
     vendor/daria/zahedan/proprietary/vendor/etc/libnfc-hal-st.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-hal-st.conf \
     vendor/daria/zahedan/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
+    vendor/daria/zahedan/proprietary/vendor/etc/md/cacerts/ikev2/DigiCertGlobalRootCA.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/DigiCertGlobalRootCA.crt \
+    vendor/daria/zahedan/proprietary/vendor/etc/md/cacerts/ikev2/DigiCertGlobalRootG2.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/DigiCertGlobalRootG2.crt \
+    vendor/daria/zahedan/proprietary/vendor/etc/md/cacerts/ikev2/DigiCertGlobalRootG3.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/DigiCertGlobalRootG3.crt \
+    vendor/daria/zahedan/proprietary/vendor/etc/md/cacerts/ikev2/Entrust.net_Certification_Authority_2048.cer:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/Entrust.net_Certification_Authority_2048.cer \
+    vendor/daria/zahedan/proprietary/vendor/etc/md/cacerts/ikev2/EntrustRootCertificationAuthorityG2_root.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/EntrustRootCertificationAuthorityG2_root.crt \
+    vendor/daria/zahedan/proprietary/vendor/etc/md/cacerts/ikev2/GeoTrust_PCA_G3_Root.der:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/GeoTrust_PCA_G3_Root.der \
+    vendor/daria/zahedan/proprietary/vendor/etc/md/cacerts/ikev2/GeoTrust_Primary_CA.der:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/GeoTrust_Primary_CA.der \
+    vendor/daria/zahedan/proprietary/vendor/etc/md/cacerts/ikev2/GeoTrust_Primary_CA_G2_ECC.der:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/GeoTrust_Primary_CA_G2_ECC.der \
+    vendor/daria/zahedan/proprietary/vendor/etc/md/cacerts/ikev2/GlobalSign_root_CA.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/GlobalSign_root_CA.crt \
+    vendor/daria/zahedan/proprietary/vendor/etc/md/cacerts/ikev2/LibertyGlobalEnterprise-Root-CA-G1.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/LibertyGlobalEnterprise-Root-CA-G1.crt \
+    vendor/daria/zahedan/proprietary/vendor/etc/md/cacerts/ikev2/Root-R3.cer:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/Root-R3.cer \
+    vendor/daria/zahedan/proprietary/vendor/etc/md/cacerts/ikev2/Root_CA_1003.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/Root_CA_1003.crt \
+    vendor/daria/zahedan/proprietary/vendor/etc/md/cacerts/ikev2/USERTrustRSACertificationAuthority.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/USERTrustRSACertificationAuthority.crt \
+    vendor/daria/zahedan/proprietary/vendor/etc/md/cacerts/ikev2/VeriSignClass3G4.der:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/VeriSignClass3G4.der \
+    vendor/daria/zahedan/proprietary/vendor/etc/md/cacerts/ikev2/VeriSignClass3G5.der:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/VeriSignClass3G5.der \
+    vendor/daria/zahedan/proprietary/vendor/etc/md/cacerts/ikev2/VeriSignUniversalRootCertification.der:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/VeriSignUniversalRootCertification.der \
+    vendor/daria/zahedan/proprietary/vendor/etc/md/cacerts/ikev2/thawte.der:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/ikev2/thawte.der \
+    vendor/daria/zahedan/proprietary/vendor/etc/md/cacerts/tls/AAACertificateServices.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/AAACertificateServices.crt \
+    vendor/daria/zahedan/proprietary/vendor/etc/md/cacerts/tls/CertumCA.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/CertumCA.crt \
+    vendor/daria/zahedan/proprietary/vendor/etc/md/cacerts/tls/CertumOrganizationValidationCASHA2.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/CertumOrganizationValidationCASHA2.crt \
+    vendor/daria/zahedan/proprietary/vendor/etc/md/cacerts/tls/CertumTrustedNetworkCA.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/CertumTrustedNetworkCA.crt \
+    vendor/daria/zahedan/proprietary/vendor/etc/md/cacerts/tls/CyberTrustJapanPublicCAG3.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/CyberTrustJapanPublicCAG3.crt \
+    vendor/daria/zahedan/proprietary/vendor/etc/md/cacerts/tls/DigiCertGlobalRootCA.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/DigiCertGlobalRootCA.crt \
+    vendor/daria/zahedan/proprietary/vendor/etc/md/cacerts/tls/DigiCertGlobalRootG2.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/DigiCertGlobalRootG2.crt \
+    vendor/daria/zahedan/proprietary/vendor/etc/md/cacerts/tls/DigiCertSHA2SecureServerCA.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/DigiCertSHA2SecureServerCA.crt \
+    vendor/daria/zahedan/proprietary/vendor/etc/md/cacerts/tls/DomenySslDvCertificationAuthority.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/DomenySslDvCertificationAuthority.crt \
+    vendor/daria/zahedan/proprietary/vendor/etc/md/cacerts/tls/EntrustCertificationAuthorityL1K.cer:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/EntrustCertificationAuthorityL1K.cer \
+    vendor/daria/zahedan/proprietary/vendor/etc/md/cacerts/tls/EntrustRootCertificationAuthority.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/EntrustRootCertificationAuthority.crt \
+    vendor/daria/zahedan/proprietary/vendor/etc/md/cacerts/tls/EntrustRootCertificationAuthorityG2.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/EntrustRootCertificationAuthorityG2.crt \
+    vendor/daria/zahedan/proprietary/vendor/etc/md/cacerts/tls/EntrustRootCertificationAuthorityG2_root.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/EntrustRootCertificationAuthorityG2_root.crt \
+    vendor/daria/zahedan/proprietary/vendor/etc/md/cacerts/tls/GoDaddyRootCertificateAuthorityG2.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/GoDaddyRootCertificateAuthorityG2.crt \
+    vendor/daria/zahedan/proprietary/vendor/etc/md/cacerts/tls/GoDaddySecureCertificateAuthorityG2.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/GoDaddySecureCertificateAuthorityG2.crt \
+    vendor/daria/zahedan/proprietary/vendor/etc/md/cacerts/tls/KPN_BV_PKIoverheid_Organisatie_Server_CA-G3_2019.cer:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/KPN_BV_PKIoverheid_Organisatie_Server_CA-G3_2019.cer \
+    vendor/daria/zahedan/proprietary/vendor/etc/md/cacerts/tls/StaatDerNederlandenEVRootCA.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/StaatDerNederlandenEVRootCA.crt \
+    vendor/daria/zahedan/proprietary/vendor/etc/md/cacerts/tls/StaatderNederlandenOrganisatieServicesCA-G3.cer:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/StaatderNederlandenOrganisatieServicesCA-G3.cer \
+    vendor/daria/zahedan/proprietary/vendor/etc/md/cacerts/tls/StaatderNederlandenRootCA-G3.cer:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/StaatderNederlandenRootCA-G3.cer \
+    vendor/daria/zahedan/proprietary/vendor/etc/md/cacerts/tls/certSIGN_ROOT_CA.crt:$(TARGET_COPY_OUT_VENDOR)/etc/md/cacerts/tls/certSIGN_ROOT_CA.crt \
     vendor/daria/zahedan/proprietary/vendor/etc/mdota/DATA_ONLY.mcfota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/DATA_ONLY.mcfota \
     vendor/daria/zahedan/proprietary/vendor/etc/mdota/MP2.mcfota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MP2.mcfota \
     vendor/daria/zahedan/proprietary/vendor/etc/mdota/MP2_CN.mcfota:$(TARGET_COPY_OUT_VENDOR)/etc/mdota/MP2_CN.mcfota \
@@ -653,6 +766,8 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/etc/mpe.conf:$(TARGET_COPY_OUT_VENDOR)/etc/mpe.conf \
     vendor/daria/zahedan/proprietary/vendor/etc/mtk_omx_core.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_omx_core.cfg \
     vendor/daria/zahedan/proprietary/vendor/etc/mtk_platform_codecs_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_platform_codecs_config.xml \
+    vendor/daria/zahedan/proprietary/vendor/etc/nhw:$(TARGET_COPY_OUT_VENDOR)/etc/nhw \
+    vendor/daria/zahedan/proprietary/vendor/etc/partition_permission.sh:$(TARGET_COPY_OUT_VENDOR)/etc/partition_permission.sh \
     vendor/daria/zahedan/proprietary/vendor/etc/permissions/com.mediatek.hardware.vow.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.mediatek.hardware.vow.xml \
     vendor/daria/zahedan/proprietary/vendor/etc/permissions/com.mediatek.hardware.vow_dsp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.mediatek.hardware.vow_dsp.xml \
     vendor/daria/zahedan/proprietary/vendor/etc/security/cacerts/01419da9.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/01419da9.0 \
@@ -796,19 +911,22 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/etc/security/cacerts_supl/lab/35ef1c14.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/35ef1c14.0 \
     vendor/daria/zahedan/proprietary/vendor/etc/security/cacerts_supl/lab/399e7759.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/399e7759.0 \
     vendor/daria/zahedan/proprietary/vendor/etc/security/cacerts_supl/lab/586933d9.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/586933d9.0 \
+    vendor/daria/zahedan/proprietary/vendor/etc/security/cacerts_supl/lab/6146415b.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/6146415b.0 \
     vendor/daria/zahedan/proprietary/vendor/etc/security/cacerts_supl/lab/66272d0d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/66272d0d.0 \
     vendor/daria/zahedan/proprietary/vendor/etc/security/cacerts_supl/lab/6f1dbe5e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/6f1dbe5e.0 \
     vendor/daria/zahedan/proprietary/vendor/etc/security/cacerts_supl/lab/b5805141.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/b5805141.0 \
     vendor/daria/zahedan/proprietary/vendor/etc/security/cacerts_supl/lab/b805b58a.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/b805b58a.0 \
     vendor/daria/zahedan/proprietary/vendor/etc/security/cacerts_supl/lab/ed7b215e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/ed7b215e.0 \
     vendor/daria/zahedan/proprietary/vendor/etc/security/cacerts_supl/lab/ef4b31e6.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts_supl/lab/ef4b31e6.0 \
-    vendor/daria/zahedan/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     vendor/daria/zahedan/proprietary/vendor/etc/slp_conf:$(TARGET_COPY_OUT_VENDOR)/etc/slp_conf \
     vendor/daria/zahedan/proprietary/vendor/etc/smsdbvisitor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/smsdbvisitor.xml \
     vendor/daria/zahedan/proprietary/vendor/etc/special_pws_channel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/special_pws_channel.xml \
     vendor/daria/zahedan/proprietary/vendor/etc/st21nfc_conf.txt:$(TARGET_COPY_OUT_VENDOR)/etc/st21nfc_conf.txt \
     vendor/daria/zahedan/proprietary/vendor/etc/task_profiles.json:$(TARGET_COPY_OUT_VENDOR)/etc/task_profiles.json \
     vendor/daria/zahedan/proprietary/vendor/etc/throttle.sh:$(TARGET_COPY_OUT_VENDOR)/etc/throttle.sh \
+    vendor/daria/zahedan/proprietary/vendor/etc/user_front.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/user_front.cfg \
+    vendor/daria/zahedan/proprietary/vendor/etc/user_main.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/user_main.cfg \
+    vendor/daria/zahedan/proprietary/vendor/etc/user_wide.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/user_wide.cfg \
     vendor/daria/zahedan/proprietary/vendor/etc/vendor-apns-conf.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vendor-apns-conf.xml \
     vendor/daria/zahedan/proprietary/vendor/etc/virtual-spn-conf-by-efgid1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efgid1.xml \
     vendor/daria/zahedan/proprietary/vendor/etc/virtual-spn-conf-by-efpnn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/virtual-spn-conf-by-efpnn.xml \
@@ -857,6 +975,7 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/lib/hw/audio.primary.mt6877.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.mt6877.so \
     vendor/daria/zahedan/proprietary/vendor/lib/hw/audio.r_submix.mt6877.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.r_submix.mt6877.so \
     vendor/daria/zahedan/proprietary/vendor/lib/hw/awinic.audio.effect.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/awinic.audio.effect.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/hw/bstface.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/bstface.default.so \
     vendor/daria/zahedan/proprietary/vendor/lib/hw/gatekeeper.beanpod.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.beanpod.so \
     vendor/daria/zahedan/proprietary/vendor/lib/hw/gps.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gps.default.so \
     vendor/daria/zahedan/proprietary/vendor/lib/hw/kmsetkey.beanpod.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/kmsetkey.beanpod.so \
@@ -911,6 +1030,8 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/lib/libCamera_gc08a3widemipiraw_Scene_Preview_ZSD_Flash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc08a3widemipiraw_Scene_Preview_ZSD_Flash.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libCamera_gc08a3widemipiraw_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc08a3widemipiraw_Video_1080.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libCamera_gc08a3widemipiraw_Video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_gc08a3widemipiraw_Video_4k.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov16a1qmipiraw_Coosea_Remosaic.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov16a1qmipiraw_Coosea_Remosaic.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov16a1qmipiraw_Coosea_Remosaic_Zoom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov16a1qmipiraw_Coosea_Remosaic_Zoom.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov16a1qmipiraw_E2EHDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov16a1qmipiraw_E2EHDR_Preview.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov16a1qmipiraw_E2EHDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov16a1qmipiraw_E2EHDR_Video.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov16a1qmipiraw_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov16a1qmipiraw_Face_Capture.so \
@@ -930,6 +1051,9 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov16a1qmipiraw_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov16a1qmipiraw_Video_1080.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov16a1qmipiraw_Video_1080_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov16a1qmipiraw_Video_1080_60.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov16a1qmipiraw_Video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov16a1qmipiraw_Video_4k.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov16a1qmipiraw_Zoom_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov16a1qmipiraw_Zoom_Capture.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov16a1qmipiraw_Zoom_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov16a1qmipiraw_Zoom_Preview.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov16a1qmipiraw_Zoom_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov16a1qmipiraw_Zoom_Video.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40mipiraw_Coosea_Remosaic.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40mipiraw_Coosea_Remosaic.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40mipiraw_E2EHDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40mipiraw_E2EHDR_Preview.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40mipiraw_E2EHDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40mipiraw_E2EHDR_Video.so \
@@ -953,8 +1077,30 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40mipiraw_Scene_lowlight.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40mipiraw_Scene_lowlight.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40mipiraw_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40mipiraw_Video_1080.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40mipiraw_Video_1080_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40mipiraw_Video_1080_120.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40mipiraw_Video_1080_120_Zoom1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40mipiraw_Video_1080_120_Zoom1.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40mipiraw_Video_1080_120_Zoom2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40mipiraw_Video_1080_120_Zoom2.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40mipiraw_Video_1080_120_Zoom3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40mipiraw_Video_1080_120_Zoom3.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40mipiraw_Video_1080_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40mipiraw_Video_1080_60.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40mipiraw_Video_1080_60_Zoom1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40mipiraw_Video_1080_60_Zoom1.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40mipiraw_Video_1080_60_Zoom2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40mipiraw_Video_1080_60_Zoom2.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40mipiraw_Video_1080_60_Zoom3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40mipiraw_Video_1080_60_Zoom3.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40mipiraw_Video_1080_Zoom1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40mipiraw_Video_1080_Zoom1.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40mipiraw_Video_1080_Zoom2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40mipiraw_Video_1080_Zoom2.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40mipiraw_Video_1080_Zoom3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40mipiraw_Video_1080_Zoom3.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40mipiraw_Video_2k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40mipiraw_Video_2k.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40mipiraw_Video_2k_Zoom1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40mipiraw_Video_2k_Zoom1.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40mipiraw_Video_2k_Zoom2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40mipiraw_Video_2k_Zoom2.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40mipiraw_Video_2k_Zoom3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40mipiraw_Video_2k_Zoom3.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40mipiraw_Video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40mipiraw_Video_4k.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40mipiraw_Video_4k_Zoom1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40mipiraw_Video_4k_Zoom1.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40mipiraw_Video_4k_Zoom2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40mipiraw_Video_4k_Zoom2.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40mipiraw_Video_4k_Zoom3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40mipiraw_Video_4k_Zoom3.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40mipiraw_Zoom_Capture01.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40mipiraw_Zoom_Capture01.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40mipiraw_Zoom_Capture02.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40mipiraw_Zoom_Capture02.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40mipiraw_Zoom_Capture03.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40mipiraw_Zoom_Capture03.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40mipiraw_Zoom_Preview01.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40mipiraw_Zoom_Preview01.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40mipiraw_Zoom_Preview02.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40mipiraw_Zoom_Preview02.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libCamera_ov50a40mipiraw_Zoom_Preview03.so:$(TARGET_COPY_OUT_VENDOR)/lib/libCamera_ov50a40mipiraw_Zoom_Preview03.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libDefaultFpsActor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libDefaultFpsActor.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libFrameRecord.so:$(TARGET_COPY_OUT_VENDOR)/lib/libFrameRecord.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libHEVCdec_sa.ca7.android.so:$(TARGET_COPY_OUT_VENDOR)/lib/libHEVCdec_sa.ca7.android.so \
@@ -1005,9 +1151,12 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/lib/libbluetooth_mtk_pure.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_mtk_pure.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libbluetooth_relayer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_relayer.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libbluetoothem_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetoothem_mtk.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libbstFaceUnlock.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbstFaceUnlock.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libbstfaceid_ca.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbstfaceid_ca.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libbt-vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbt-vendor.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libbwc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbwc.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libcam.halsensor.hwintegration.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.halsensor.hwintegration.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libcameracustom.plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcameracustom.plugin.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libcapctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcapctrl.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libcares_naptr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcares_naptr.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libcarrierconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcarrierconfig.so \
@@ -1025,10 +1174,12 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/lib/libcodec2_vpp_qt_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_vpp_qt_plugin.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libcodec2_vpp_rs_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcodec2_vpp_rs_plugin.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libconnfem.so:$(TARGET_COPY_OUT_VENDOR)/lib/libconnfem.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libcs_cs35l45_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcs_cs35l45_intf.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libcustom_nvram.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcustom_nvram.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libcvsd_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcvsd_mtk.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libdecrypt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdecrypt.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libdynamiclog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdynamiclog.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libfcell.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfcell.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libfgauge_gm30.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfgauge_gm30.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libfile_op.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfile_op.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libformatter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libformatter.so \
@@ -1058,6 +1209,7 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/lib/libjpeg-alpha-oal_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpeg-alpha-oal_vendor.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libjpeg-alpha_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpeg-alpha_vendor.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libladder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libladder.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libminiui.so:$(TARGET_COPY_OUT_VENDOR)/lib/libminiui.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libmml.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmml.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libmmprofile.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmprofile.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libmnetlink_v104.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmnetlink_v104.so \
@@ -1068,6 +1220,9 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/lib/libmtcloader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtcloader.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libmtkares.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkares.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libmtkcam.atmseventmgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam.atmseventmgr.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libmtkcam_debugutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_debugutils.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libmtkcam_stdutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_stdutils.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libmtkcam_ulog.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcam_ulog.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libmtkcutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkcutils.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libmtkhardware_legacy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtkhardware_legacy.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libmtklimiter_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmtklimiter_vendor.so \
@@ -1087,6 +1242,7 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/lib/libnwk_opt_halwrap_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnwk_opt_halwrap_vendor.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libnxp_extamp_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnxp_extamp_intf.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libperfctl_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperfctl_vendor.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libpixelflinger.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpixelflinger.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libpkm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpkm.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libpower_timer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpower_timer.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libpowerhalwrap_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpowerhalwrap_vendor.so \
@@ -1134,6 +1290,7 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/lib/libwapi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwapi.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libwpa_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwpa_client.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so \
+    vendor/daria/zahedan/proprietary/vendor/lib/libxfacedevice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxfacedevice.so \
     vendor/daria/zahedan/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
     vendor/daria/zahedan/proprietary/vendor/lib/meta_wifi_data.so:$(TARGET_COPY_OUT_VENDOR)/lib/meta_wifi_data.so \
     vendor/daria/zahedan/proprietary/vendor/lib/mt6877/libaiselector.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6877/libaiselector.so \
@@ -1192,6 +1349,7 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/lib64/APUWareApusysServer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/APUWareApusysServer.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/APUWareUtilsServer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/APUWareUtilsServer.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/APUWareXrpServer_v2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/APUWareXrpServer_v2.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/android.hardware.power-service-mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.power-service-mediatek.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/arm.graphics-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/arm.graphics-V1-ndk_platform.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLES_mali.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/egl/libGLES_meow.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLES_meow.so \
@@ -1215,6 +1373,7 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/lib64/hw/android.hardware.thermal@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.thermal@2.0-impl.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/hw/audio.primary.mt6877.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.mt6877.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/hw/audio.r_submix.mt6877.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.r_submix.mt6877.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/hw/bstface.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/bstface.default.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/hw/fingerprint.mt6877.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.mt6877.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/hw/gatekeeper.beanpod.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.beanpod.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/hw/gps.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gps.default.so \
@@ -1261,8 +1420,9 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/lib64/lib3a.sensors.color.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.sensors.color.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/lib3a.sensors.flicker.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib3a.sensors.flicker.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libBSTAiScene.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libBSTAiScene.so \
-    vendor/daria/zahedan/proprietary/vendor/lib64/libBSTBackLightDetect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libBSTBackLightDetect.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libBSTBeauty.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libBSTBeauty.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libBSTHDRDETECT.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libBSTHDRDETECT.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libBSTMultiExpoGainHDR.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libBSTMultiExpoGainHDR.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libBSTSWAD.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libBSTSWAD.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libBSTSingleAIBokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libBSTSingleAIBokeh.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_gc02m1macromipiraw_E2EHDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_gc02m1macromipiraw_E2EHDR_Preview.so \
@@ -1302,6 +1462,8 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_gc08a3widemipiraw_Scene_Preview_ZSD_Flash.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_gc08a3widemipiraw_Scene_Preview_ZSD_Flash.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_gc08a3widemipiraw_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_gc08a3widemipiraw_Video_1080.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_gc08a3widemipiraw_Video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_gc08a3widemipiraw_Video_4k.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov16a1qmipiraw_Coosea_Remosaic.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov16a1qmipiraw_Coosea_Remosaic.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov16a1qmipiraw_Coosea_Remosaic_Zoom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov16a1qmipiraw_Coosea_Remosaic_Zoom.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov16a1qmipiraw_E2EHDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov16a1qmipiraw_E2EHDR_Preview.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov16a1qmipiraw_E2EHDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov16a1qmipiraw_E2EHDR_Video.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov16a1qmipiraw_Face_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov16a1qmipiraw_Face_Capture.so \
@@ -1321,6 +1483,9 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov16a1qmipiraw_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov16a1qmipiraw_Video_1080.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov16a1qmipiraw_Video_1080_60.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov16a1qmipiraw_Video_1080_60.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov16a1qmipiraw_Video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov16a1qmipiraw_Video_4k.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov16a1qmipiraw_Zoom_Capture.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov16a1qmipiraw_Zoom_Capture.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov16a1qmipiraw_Zoom_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov16a1qmipiraw_Zoom_Preview.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov16a1qmipiraw_Zoom_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov16a1qmipiraw_Zoom_Video.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40mipiraw_Coosea_Remosaic.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40mipiraw_Coosea_Remosaic.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40mipiraw_E2EHDR_Preview.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40mipiraw_E2EHDR_Preview.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40mipiraw_E2EHDR_Video.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40mipiraw_E2EHDR_Video.so \
@@ -1344,11 +1509,35 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40mipiraw_Scene_lowlight.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40mipiraw_Scene_lowlight.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40mipiraw_Video_1080.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40mipiraw_Video_1080.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40mipiraw_Video_1080_120.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40mipiraw_Video_1080_120.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40mipiraw_Video_1080_120_Zoom1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40mipiraw_Video_1080_120_Zoom1.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40mipiraw_Video_1080_120_Zoom2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40mipiraw_Video_1080_120_Zoom2.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40mipiraw_Video_1080_120_Zoom3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40mipiraw_Video_1080_120_Zoom3.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40mipiraw_Video_1080_60.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40mipiraw_Video_1080_60.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40mipiraw_Video_1080_60_Zoom1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40mipiraw_Video_1080_60_Zoom1.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40mipiraw_Video_1080_60_Zoom2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40mipiraw_Video_1080_60_Zoom2.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40mipiraw_Video_1080_60_Zoom3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40mipiraw_Video_1080_60_Zoom3.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40mipiraw_Video_1080_Zoom1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40mipiraw_Video_1080_Zoom1.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40mipiraw_Video_1080_Zoom2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40mipiraw_Video_1080_Zoom2.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40mipiraw_Video_1080_Zoom3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40mipiraw_Video_1080_Zoom3.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40mipiraw_Video_2k.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40mipiraw_Video_2k.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40mipiraw_Video_2k_Zoom1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40mipiraw_Video_2k_Zoom1.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40mipiraw_Video_2k_Zoom2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40mipiraw_Video_2k_Zoom2.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40mipiraw_Video_2k_Zoom3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40mipiraw_Video_2k_Zoom3.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40mipiraw_Video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40mipiraw_Video_4k.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40mipiraw_Video_4k_Zoom1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40mipiraw_Video_4k_Zoom1.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40mipiraw_Video_4k_Zoom2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40mipiraw_Video_4k_Zoom2.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40mipiraw_Video_4k_Zoom3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40mipiraw_Video_4k_Zoom3.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40mipiraw_Zoom_Capture01.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40mipiraw_Zoom_Capture01.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40mipiraw_Zoom_Capture02.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40mipiraw_Zoom_Capture02.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40mipiraw_Zoom_Capture03.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40mipiraw_Zoom_Capture03.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40mipiraw_Zoom_Preview01.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40mipiraw_Zoom_Preview01.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40mipiraw_Zoom_Preview02.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40mipiraw_Zoom_Preview02.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libCamera_ov50a40mipiraw_Zoom_Preview03.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libCamera_ov50a40mipiraw_Zoom_Preview03.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libDR.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libDR.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libDefaultFpsActor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libDefaultFpsActor.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libFrameRecord.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libFrameRecord.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libHDRDetectUtils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libHDRDetectUtils.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libHDRUtils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libHDRUtils.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libJpgEncPipe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libJpgEncPipe.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libMtkOmxCore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMtkOmxCore.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libMtkSpeechEnh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMtkSpeechEnh.so \
@@ -1418,7 +1607,9 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/lib64/libbluetooth_mtk_pure.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_mtk_pure.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libbluetooth_relayer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_relayer.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libbluetoothem_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetoothem_mtk.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libbstFaceUnlock.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbstFaceUnlock.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libbstFilterCapture.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbstFilterCapture.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libbstfaceid_ca.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbstfaceid_ca.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libbt-vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbt-vendor.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libbwc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbwc.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libcam.afhal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.afhal.so \
@@ -1486,6 +1677,7 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/lib64/libcameracustom.eis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcameracustom.eis.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libcameracustom.flashlight.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcameracustom.flashlight.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libcameracustom.lens.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcameracustom.lens.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libcameracustom.plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcameracustom.plugin.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libcameracustom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcameracustom.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libcapctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcapctrl.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libcares_naptr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcares_naptr.so \
@@ -1505,6 +1697,7 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/lib64/libcodec2_vpp_rs_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_vpp_rs_plugin.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libcomposer_ext.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcomposer_ext.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libconnfem.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libconnfem.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libcs_cs35l45_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcs_cs35l45_intf.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libcustom_nvram.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcustom_nvram.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libcvsd_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcvsd_mtk.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libdecrypt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdecrypt.so \
@@ -1514,6 +1707,7 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/lib64/libdynamiclog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdynamiclog.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libeffecthal.base.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libeffecthal.base.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libem_sensor_jni.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libem_sensor_jni.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libfcell.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfcell.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libfeature.face.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeature.face.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libfeature.stereo.provider.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeature.stereo.provider.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libfeature.vsdof.hal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfeature.vsdof.hal.so \
@@ -1563,6 +1757,7 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/lib64/liblpcnr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liblpcnr.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libm4u.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libm4u.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libmfllcore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmfllcore.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libminiui.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libminiui.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libmipc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmipc.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libmmagent.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmmagent.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libmml.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmml.so \
@@ -1570,6 +1765,7 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/lib64/libmnetlink_v104.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmnetlink_v104.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libmnl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmnl.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libmorpho_Superlowlight.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmorpho_Superlowlight.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libmorpho_video_stabilizer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmorpho_video_stabilizer.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libmp3dec_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmp3dec_mtk.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libmsbc_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmsbc_mtk.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libmsnr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmsnr.so \
@@ -1584,6 +1780,7 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/lib64/libmtkcam.featurepipe.streaming.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam.featurepipe.streaming.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libmtkcam.featurepipe.vsdof_util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam.featurepipe.vsdof_util.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libmtkcam.logicalmodule.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam.logicalmodule.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libmtkcam.plugin.mfnr.hdr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam.plugin.mfnr.hdr.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libmtkcam_3rdparty.core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_3rdparty.core.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libmtkcam_3rdparty.customer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_3rdparty.customer.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libmtkcam_3rdparty.mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libmtkcam_3rdparty.mtk.so \
@@ -1670,6 +1867,7 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/lib64/libnwk_opt_halwrap_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnwk_opt_halwrap_vendor.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libnxp_extamp_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libnxp_extamp_intf.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libperfctl_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libperfctl_vendor.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libpixelflinger.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpixelflinger.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libpkm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpkm.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libpower_timer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpower_timer.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libpowerhalwrap_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libpowerhalwrap_vendor.so \
@@ -1720,6 +1918,7 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/lib64/libwpa_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwpa_client.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libwpfa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwpfa.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwvhidl.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/libxfacedevice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxfacedevice.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libwvdrmengine.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/meta_wifi_data.so:$(TARGET_COPY_OUT_VENDOR)/lib64/meta_wifi_data.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/mt6877/libaiselector.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6877/libaiselector.so \
@@ -1740,6 +1939,7 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/lib64/ov50a40_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ov50a40_mipi_raw_IdxMgr.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/ov50a40_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ov50a40_mipi_raw_tuning.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/soundfx/libaudiopreprocessing_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libaudiopreprocessing_mtk.so \
+    vendor/daria/zahedan/proprietary/vendor/lib64/vendor.bst.hardware.face@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.bst.hardware.face@1.0.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/vendor.mediatek.hardware.apmonitor@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.apmonitor@2.0.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/vendor.mediatek.hardware.apuware.apusys@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.apuware.apusys@2.0.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/vendor.mediatek.hardware.apuware.apusys@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.apuware.apusys@2.1.so \
@@ -1814,11 +2014,13 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/thh/ta/isee_model.json:$(TARGET_COPY_OUT_VENDOR)/thh/ta/isee_model.json
 
 PRODUCT_PACKAGES += \
+    libfmjni \
     libpowerhal \
     libwifi-hal-mtk \
-    libfmjni \
     ImsService \
-    GpuGameDriver.mt6877 \
+    EmCamera \
+    HorCali \
+    SensorHub \
     mediatek-common \
     mediatek-framework \
     mediatek-ims-base \
@@ -1828,6 +2030,7 @@ PRODUCT_PACKAGES += \
     mediatek-telephony-base \
     mediatek-telephony-common \
     mediatek-wfo-legacy \
+    android.hardware.neuralnetworks@1.3-service-mtk-mdla-dsp-gpu \
     android.hardware.usb@1.2-service-mediatekv2 \
     android.hardware.wifi.hostapd \
     android.hardware.wifi.supplicant \
@@ -1835,5 +2038,7 @@ PRODUCT_PACKAGES += \
     gnss@2.1-service-mtk \
     lbs_hidl_service@1.0 \
     manifest_android.hardware.drm@1.4-service.widevine \
+    manifest_face \
     manifest_hwcomposer \
-    manifest_media_c2_V1_2_default
+    manifest_media_c2_V1_2_default \
+    power-mtk
