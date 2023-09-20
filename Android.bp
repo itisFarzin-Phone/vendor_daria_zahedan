@@ -255,12 +255,3 @@ prebuilt_etc_xml {
 	soc_specific: true,
 }
 
-prebuilt_etc_xml {
-	name: "power-mtk",
-	owner: "daria",
-	src: "proprietary/vendor/etc/vintf/manifest/power-mtk.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
