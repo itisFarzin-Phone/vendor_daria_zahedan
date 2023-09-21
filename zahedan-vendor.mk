@@ -151,7 +151,6 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/bin/hw/hostapd:$(TARGET_COPY_OUT_VENDOR)/bin/hw/hostapd \
     vendor/daria/zahedan/proprietary/vendor/bin/hw/mtkfusionrild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/mtkfusionrild \
     vendor/daria/zahedan/proprietary/vendor/bin/hw/tetheroffloadservice:$(TARGET_COPY_OUT_VENDOR)/bin/hw/tetheroffloadservice \
-    vendor/daria/zahedan/proprietary/vendor/bin/hw/vendor.bst.hardware.face@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.bst.hardware.face@1.0-service \
     vendor/daria/zahedan/proprietary/vendor/bin/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-service \
     vendor/daria/zahedan/proprietary/vendor/bin/hw/vendor.mediatek.hardware.mmagent@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.mmagent@1.1-service \
     vendor/daria/zahedan/proprietary/vendor/bin/hw/vendor.mediatek.hardware.mms@1.6-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.mediatek.hardware.mms@1.6-service \
@@ -416,7 +415,6 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/etc/init/nvram_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/nvram_daemon.rc \
     vendor/daria/zahedan/proprietary/vendor/etc/init/pri_misc.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/pri_misc.rc \
     vendor/daria/zahedan/proprietary/vendor/etc/init/tetheroffloadservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/tetheroffloadservice.rc \
-    vendor/daria/zahedan/proprietary/vendor/etc/init/vendor.bst.hardware.face@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.bst.hardware.face@1.0-service.rc \
     vendor/daria/zahedan/proprietary/vendor/etc/init/vendor.mediatek.hardware.keymaster_attestation@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.keymaster_attestation@1.1-service.rc \
     vendor/daria/zahedan/proprietary/vendor/etc/init/vendor.mediatek.hardware.mmagent@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mmagent@1.1-service.rc \
     vendor/daria/zahedan/proprietary/vendor/etc/init/vendor.mediatek.hardware.mms@1.6-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.mms@1.6-service.rc \
@@ -1938,7 +1936,6 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/lib64/ov50a40_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ov50a40_mipi_raw_IdxMgr.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/ov50a40_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ov50a40_mipi_raw_tuning.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/soundfx/libaudiopreprocessing_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libaudiopreprocessing_mtk.so \
-    vendor/daria/zahedan/proprietary/vendor/lib64/vendor.bst.hardware.face@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.bst.hardware.face@1.0.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/vendor.mediatek.hardware.apmonitor@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.apmonitor@2.0.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/vendor.mediatek.hardware.apuware.apusys@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.apuware.apusys@2.0.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/vendor.mediatek.hardware.apuware.apusys@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.mediatek.hardware.apuware.apusys@2.1.so \
@@ -2037,6 +2034,5 @@ PRODUCT_PACKAGES += \
     gnss@2.1-service-mtk \
     lbs_hidl_service@1.0 \
     manifest_android.hardware.drm@1.4-service.widevine \
-    manifest_face \
     manifest_hwcomposer \
     manifest_media_c2_V1_2_default
