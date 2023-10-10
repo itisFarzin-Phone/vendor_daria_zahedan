@@ -323,7 +323,6 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/etc/audio_param/Volume_ParamUnitDesc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_param/Volume_ParamUnitDesc.xml \
     vendor/daria/zahedan/proprietary/vendor/etc/aurisys_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/aurisys_config.xml \
     vendor/daria/zahedan/proprietary/vendor/etc/aurisys_config_rv.xml:$(TARGET_COPY_OUT_VENDOR)/etc/aurisys_config_rv.xml \
-    vendor/daria/zahedan/proprietary/vendor/etc/bstFaceUnlock.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/bstFaceUnlock.cfg \
     vendor/daria/zahedan/proprietary/vendor/etc/bst_filter_config.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/bst_filter_config.cfg \
     vendor/daria/zahedan/proprietary/vendor/etc/bstbeauty.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/bstbeauty.cfg \
     vendor/daria/zahedan/proprietary/vendor/etc/calibration_16_9.bin:$(TARGET_COPY_OUT_VENDOR)/etc/calibration_16_9.bin \
@@ -973,7 +972,6 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/lib/hw/audio.primary.mt6877.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.mt6877.so \
     vendor/daria/zahedan/proprietary/vendor/lib/hw/audio.r_submix.mt6877.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.r_submix.mt6877.so \
     vendor/daria/zahedan/proprietary/vendor/lib/hw/awinic.audio.effect.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/awinic.audio.effect.so \
-    vendor/daria/zahedan/proprietary/vendor/lib/hw/bstface.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/bstface.default.so \
     vendor/daria/zahedan/proprietary/vendor/lib/hw/gatekeeper.beanpod.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.beanpod.so \
     vendor/daria/zahedan/proprietary/vendor/lib/hw/gps.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gps.default.so \
     vendor/daria/zahedan/proprietary/vendor/lib/hw/kmsetkey.beanpod.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/kmsetkey.beanpod.so \
@@ -1149,8 +1147,6 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/lib/libbluetooth_mtk_pure.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_mtk_pure.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libbluetooth_relayer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_relayer.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libbluetoothem_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetoothem_mtk.so \
-    vendor/daria/zahedan/proprietary/vendor/lib/libbstFaceUnlock.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbstFaceUnlock.so \
-    vendor/daria/zahedan/proprietary/vendor/lib/libbstfaceid_ca.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbstfaceid_ca.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libbt-vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbt-vendor.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libbwc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbwc.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libcam.halsensor.hwintegration.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcam.halsensor.hwintegration.so \
@@ -1288,7 +1284,6 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/lib/libwapi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwapi.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libwpa_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwpa_client.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so \
-    vendor/daria/zahedan/proprietary/vendor/lib/libxfacedevice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxfacedevice.so \
     vendor/daria/zahedan/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
     vendor/daria/zahedan/proprietary/vendor/lib/meta_wifi_data.so:$(TARGET_COPY_OUT_VENDOR)/lib/meta_wifi_data.so \
     vendor/daria/zahedan/proprietary/vendor/lib/mt6877/libaiselector.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6877/libaiselector.so \
@@ -1370,7 +1365,6 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/lib64/hw/android.hardware.thermal@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.thermal@2.0-impl.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/hw/audio.primary.mt6877.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.mt6877.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/hw/audio.r_submix.mt6877.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.r_submix.mt6877.so \
-    vendor/daria/zahedan/proprietary/vendor/lib64/hw/bstface.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/bstface.default.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/hw/fingerprint.mt6877.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.mt6877.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/hw/gatekeeper.beanpod.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.beanpod.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/hw/gps.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gps.default.so \
@@ -1604,9 +1598,7 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/lib64/libbluetooth_mtk_pure.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_mtk_pure.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libbluetooth_relayer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_relayer.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libbluetoothem_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetoothem_mtk.so \
-    vendor/daria/zahedan/proprietary/vendor/lib64/libbstFaceUnlock.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbstFaceUnlock.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libbstFilterCapture.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbstFilterCapture.so \
-    vendor/daria/zahedan/proprietary/vendor/lib64/libbstfaceid_ca.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbstfaceid_ca.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libbt-vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbt-vendor.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libbwc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbwc.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libcam.afhal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcam.afhal.so \
@@ -1915,7 +1907,6 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/lib64/libwpa_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwpa_client.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libwpfa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwpfa.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwvhidl.so \
-    vendor/daria/zahedan/proprietary/vendor/lib64/libxfacedevice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxfacedevice.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libwvdrmengine.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/meta_wifi_data.so:$(TARGET_COPY_OUT_VENDOR)/lib64/meta_wifi_data.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/mt6877/libaiselector.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mt6877/libaiselector.so \
