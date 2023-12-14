@@ -2019,7 +2019,7 @@ PRODUCT_PACKAGES += \
     mediatek-wfo-legacy \
     android.hardware.neuralnetworks@1.3-service-mtk-mdla-dsp-gpu \
     android.hardware.usb@1.2-service-mediatekv2 \
-    android.hardware.wifi.supplicant \
+    android.hardware.wifi.supplicant.mtk \
     gnss-mtk \
     gnss@2.1-service-mtk \
     lbs_hidl_service@1.0 \
