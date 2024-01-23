@@ -819,7 +819,6 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/etc/security/cacerts/7892ad52.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/7892ad52.0 \
     vendor/daria/zahedan/proprietary/vendor/etc/security/cacerts/7a7c655d.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/7a7c655d.0 \
     vendor/daria/zahedan/proprietary/vendor/etc/security/cacerts/7a819ef2.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/7a819ef2.0 \
-    vendor/daria/zahedan/proprietary/vendor/etc/security/cacerts/7c302982.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/7c302982.0 \
     vendor/daria/zahedan/proprietary/vendor/etc/security/cacerts/81b9768f.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/81b9768f.0 \
     vendor/daria/zahedan/proprietary/vendor/etc/security/cacerts/82223c44.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/82223c44.0 \
     vendor/daria/zahedan/proprietary/vendor/etc/security/cacerts/83e9984f.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/83e9984f.0 \
@@ -860,7 +859,6 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/etc/security/cacerts/bd43e1dd.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/bd43e1dd.0 \
     vendor/daria/zahedan/proprietary/vendor/etc/security/cacerts/bdacca6f.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/bdacca6f.0 \
     vendor/daria/zahedan/proprietary/vendor/etc/security/cacerts/bf64f35b.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/bf64f35b.0 \
-    vendor/daria/zahedan/proprietary/vendor/etc/security/cacerts/c2c1704e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/c2c1704e.0 \
     vendor/daria/zahedan/proprietary/vendor/etc/security/cacerts/c491639e.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/c491639e.0 \
     vendor/daria/zahedan/proprietary/vendor/etc/security/cacerts/c51c224c.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/c51c224c.0 \
     vendor/daria/zahedan/proprietary/vendor/etc/security/cacerts/c559d742.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/c559d742.0 \
@@ -870,7 +868,6 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/etc/security/cacerts/ccc52f49.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/ccc52f49.0 \
     vendor/daria/zahedan/proprietary/vendor/etc/security/cacerts/cf701eeb.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/cf701eeb.0 \
     vendor/daria/zahedan/proprietary/vendor/etc/security/cacerts/d06393bb.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d06393bb.0 \
-    vendor/daria/zahedan/proprietary/vendor/etc/security/cacerts/d0cddf45.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d0cddf45.0 \
     vendor/daria/zahedan/proprietary/vendor/etc/security/cacerts/d16a5865.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d16a5865.0 \
     vendor/daria/zahedan/proprietary/vendor/etc/security/cacerts/d18e9066.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d18e9066.0 \
     vendor/daria/zahedan/proprietary/vendor/etc/security/cacerts/d39b0a2c.0:$(TARGET_COPY_OUT_VENDOR)/etc/security/cacerts/d39b0a2c.0 \
@@ -1245,7 +1242,6 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/lib/librcs_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/librcs_interface.so \
     vendor/daria/zahedan/proprietary/vendor/lib/librcs_volte_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/librcs_volte_core.so \
     vendor/daria/zahedan/proprietary/vendor/lib/librgbwlightsensor.so:$(TARGET_COPY_OUT_VENDOR)/lib/librgbwlightsensor.so \
-    vendor/daria/zahedan/proprietary/vendor/lib/librpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/librpc.so \
     vendor/daria/zahedan/proprietary/vendor/lib/librt_extamp_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib/librt_extamp_intf.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libscltm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscltm.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libsensorndkbridge-v30.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorndkbridge-v30.so \
@@ -1267,7 +1263,6 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/lib/libvcodec_utility.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvcodec_utility.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libvcodecdrv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvcodecdrv.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libvcodecdrv_header_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvcodecdrv_header_stub.so \
-    vendor/daria/zahedan/proprietary/vendor/lib/libviagpsrpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libviagpsrpc.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libvow_ap_test_aa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvow_ap_test_aa.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libvow_ap_test_dd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvow_ap_test_dd.so \
     vendor/daria/zahedan/proprietary/vendor/lib/libvow_ap_test_ha.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvow_ap_test_ha.so \
@@ -1867,7 +1862,6 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/lib64/libratconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libratconfig.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/librgbwlightsensor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librgbwlightsensor.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/librilfusion.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librilfusion.so \
-    vendor/daria/zahedan/proprietary/vendor/lib64/librpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librpc.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/librt_extamp_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librt_extamp_intf.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libscltm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscltm.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libsensor_custom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensor_custom.so \
@@ -1893,7 +1887,6 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/vendor/lib64/libvcodecdrv_header_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvcodecdrv_header_stub.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libvia-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvia-ril.so \
-    vendor/daria/zahedan/proprietary/vendor/lib64/libviagpsrpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libviagpsrpc.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libviamipc-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libviamipc-ril.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libvow_ap_test_aa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvow_ap_test_aa.so \
     vendor/daria/zahedan/proprietary/vendor/lib64/libvow_ap_test_dd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvow_ap_test_dd.so \
@@ -2004,7 +1997,6 @@ PRODUCT_PACKAGES += \
     libfmjni \
     libpowerhal \
     libwifi-hal-mtk \
-    EmCamera \
     HorCali \
     SensorHub \
     ImsService \
