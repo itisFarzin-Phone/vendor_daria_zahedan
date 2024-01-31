@@ -2009,6 +2009,7 @@ PRODUCT_PACKAGES += \
     mediatek-ims-extension-plugin \
     mediatek-telecom-common \
     mediatek-telephony-base \
+    mediatek-telephony-common \
     android.hardware.neuralnetworks@1.3-service-mtk-mdla-dsp-gpu \
     android.hardware.usb@1.2-service-mediatekv2 \
     android.hardware.wifi.supplicant.mtk \
