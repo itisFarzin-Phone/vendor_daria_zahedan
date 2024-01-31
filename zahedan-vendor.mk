@@ -25,6 +25,7 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/system_ext/lib/libvcodec_capenc.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libvcodec_capenc.so \
     vendor/daria/zahedan/proprietary/system_ext/lib/libvsim-adaptor-client.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libvsim-adaptor-client.so \
     vendor/daria/zahedan/proprietary/system_ext/lib/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.videotelephony@1.0.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib/vendor.mediatek.hardware.videotelephony-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/vendor.mediatek.hardware.videotelephony-V1-ndk.so \
     vendor/daria/zahedan/proprietary/system_ext/lib64/libBSTBeautyAPK.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libBSTBeautyAPK.so \
     vendor/daria/zahedan/proprietary/system_ext/lib64/libUvPanorama.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libUvPanorama.so \
     vendor/daria/zahedan/proprietary/system_ext/lib64/libaed.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libaed.so \
@@ -108,6 +109,7 @@ PRODUCT_COPY_FILES += \
     vendor/daria/zahedan/proprietary/system_ext/lib64/vendor.mediatek.hardware.mtkpower@1.2.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.mtkpower@1.2.so \
     vendor/daria/zahedan/proprietary/system_ext/lib64/vendor.mediatek.hardware.mtkradioex@3.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.mtkradioex@3.0.so \
     vendor/daria/zahedan/proprietary/system_ext/lib64/vendor.mediatek.hardware.videotelephony@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.videotelephony@1.0.so \
+    vendor/daria/zahedan/proprietary/system_ext/lib64/vendor.mediatek.hardware.videotelephony-V1-ndk.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/vendor.mediatek.hardware.videotelephony-V1-ndk.so \
     vendor/daria/zahedan/proprietary/vendor/bin/AgentTest:$(TARGET_COPY_OUT_VENDOR)/bin/AgentTest \
     vendor/daria/zahedan/proprietary/vendor/bin/STFlashTool:$(TARGET_COPY_OUT_VENDOR)/bin/STFlashTool \
     vendor/daria/zahedan/proprietary/vendor/bin/atcid:$(TARGET_COPY_OUT_VENDOR)/bin/atcid \
